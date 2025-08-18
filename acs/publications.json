@@ -9,5 +9,15 @@
     "doi": "xxx/yyy",
     "url": "https://example.com/paper",
     "tags": ["EN"]
+  },
+  {
+    "id": "matsushima2025cmd",
+    "title": "境界積分作用素族の固有値とそのJordan鎖の数値計算",
+    "authors": ["松島 慶", "山田 崇恭"],
+    "year": 2025,
+    "type": "conference",
+    "venue": "日本機械学会 第38回計算力学講演会 (CMD2025)",
+    "url": "https://www.jsme.or.jp/conference/cmdconf25/",
+    "tags": ["JSME", "JP"]
   }
 ]
