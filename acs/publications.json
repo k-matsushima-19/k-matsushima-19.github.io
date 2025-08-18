@@ -7,7 +7,6 @@
     "type": "article",
     "venue": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",
     "doi": "xxx/yyy",
-    "url": "https://example.com/paper",
     "tags": ["EN"]
   },
   {
@@ -18,6 +17,26 @@
     "type": "conference",
     "venue": "日本機械学会 第38回計算力学講演会 (CMD2025)",
     "url": "https://www.jsme.or.jp/conference/cmdconf25/",
-    "tags": ["JSME", "JP"]
+    "tags": ["JP", "JSME"]
+  },
+  {
+    "id": "matsushima2025wakate",
+    "title": "2次元音響散乱問題の共鳴の縮退に関する数値計算",
+    "authors": ["松島 慶", "山田 崇恭"],
+    "year": 2025,
+    "type": "conference",
+    "venue": "日本機械学会 M&M・CMD若手シンポジウム2025",
+    "url": "https://www.jsme.or.jp/conference/mmdcmdconf25/",
+    "tags": ["JP", "JSME"]
+  },
+  {
+    "id": "matsushima2025mam",
+    "title": "最適化理論に基づく非エルミート系における構造設計",
+    "authors": ["松島 慶", "山田 崇恭"],
+    "year": 2025,
+    "type": "conference",
+    "venue": "日本機械学会 M&M2025 材料力学カンファレンス",
+    "url": "https://www.jsme.or.jp/conference/mmdconf25/",
+    "tags": ["JP", "JSME"]
   }
 ]
