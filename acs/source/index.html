@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>広島大学 応用計算科学研究室</title>
+  <style>
+    :root {
+      --primary: #004b8d; /* 基調カラー */
+      --accent: #f5a623; /* 差し色 */
+      --bg: #f9fafb;
+      --text: #111827;
+      --max-width: 1200px;
+      --nav-height: 64px; /* 固定ナビの高さ */
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+    /* 横スクロール抑止とメディアのはみ出し対策 */
+    html, body { max-width: 100%; overflow-x: hidden; }
+    img, iframe { max-width: 100%; height: auto; }
+    /* ヘッダーとナビ */
+    header {
+      background-image: url('images/header.jpeg'); 
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      /* ▼ 画像エリアの高さを拡大（必要に応じて数値を調整） */
+      min-height: clamp(200px, 30vh, 480px);
+      display: flex;
+      flex-direction: column;
+    }
+    nav {
+      position: fixed;           /* 追従（固定） */
+      top: 0;
+      left: 0;
+      right: 0;
+      height: var(--nav-height); /* 高さを変えたい場合は --nav-height を調整 */
+      width: 100%;
+      max-width: none;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; /* 左にブランド、右にタブ */
+      padding: 0 1rem;            /* 高さは height で管理するため上下は0 */
+      background: rgba(0, 0, 0, 0.5); /* 半透明 */
+      backdrop-filter: saturate(180%) blur(6px);
+      z-index: 1000;              /* 最前面へ */
+    }
+    nav .brand {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+    /* タブを画面右上端へ */
+    #nav-list { margin-left: auto; }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: opacity .2s;
+    }
+    nav a:hover { opacity: .7; }
+    @media(max-width: 768px){
+      nav ul { display: none; }
+      nav .menu-btn {
+        display: block;
+        cursor: pointer;
+        font-size: 1.5rem;
+      }
+    }
+    @media(min-width: 769px){
+      nav .menu-btn { display: none; }
+    }
+
+    /* セクション共通 */
+    section {
+      max-width: var(--max-width);
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+    section h2 {
+      font-size: 2rem;
+      border-left: .25rem solid var(--accent);
+      padding-left: .5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* 研究テーマカード */
+    .research-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: .5rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,.1);
+      padding: 1.5rem;
+      display: grid;
+      grid-template-columns: 1fr; /* 画像→本文の縦並び */
+      gap: 1rem;
+      align-items: start;
+    }
+    .card h3 { margin-bottom: .5rem; }
+    .card p { font-size: .95rem; }
+    .card-media {
+      width: 100%;
+      max-width: 400px;
+      aspect-ratio: 16 / 9;       /* 16:9 比率を維持 */
+      border-radius: .5rem;
+      overflow: hidden;
+      background: #eef2f7;        /* 画像が無いときのプレースホルダー */
+      margin: 0 auto .75rem;      /* 画像を中央に & 下に余白 */
+    }
+    .card-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .card-body { align-self: start; width: 100%; }
+    @media(max-width: 800px){
+      .card { grid-template-columns: 1fr; }
+      /* モバイルはカードの左右パディングをまたいで全幅表示（フルブリード） */
+      .card-media { max-width: none; width: calc(100% + 3rem); margin: 0 -1.5rem .75rem; }
+    }
+
+    /* メンバーリスト */
+    .members ul { list-style: none; }
+    .members li { margin-bottom: .75rem; }
+
+    /* 業績リスト */
+    .publications ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+    .publications li { margin-bottom: .5rem; }
+
+    /* お問い合わせ */
+    .contact .map {
+      width: 100%;
+      height: 300px;
+      background: #ddd; /* マップ無効時のフォールバック */
+      border: none;
+    }
+
+    /* フッター */
+    footer {
+      background: var(--primary);
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    /* 固定ナビ用: アンカー位置のずれ対策 */
+  html { scroll-padding-top: calc(var(--nav-height) + 8px); }
+
+  /* モバイル時はナビの高さを可変にしてメニュー展開に対応 */
+  @media(max-width: 768px){
+    nav { height: auto; padding: .5rem 1rem; align-items: flex-start; }
+    nav ul { display: none; flex-direction: column; gap: .75rem; margin-top: .5rem; width: 100%; }
+  }
+  /* publications: dynamic list styles */
+  .pub-controls { display:flex; gap:.75rem; flex-wrap:wrap; align-items:center; margin-bottom:1rem; }
+  .pub-controls select, .pub-controls input { padding:.5rem; border:1px solid #ccc; border-radius:.5rem; background:#fff; }
+  .pub-list { list-style:none; padding-left:0; overflow-y:auto; }
+  .pub-item { background:#fff; border-radius:.5rem; box-shadow:0 1px 2px rgba(0,0,0,.08); padding:1rem; margin-bottom:.75rem; }
+  .pub-title { font-weight:600; margin-bottom:.25rem; }
+  .pub-meta { color:#555; font-size:.9rem; margin-bottom:.25rem; }
+  .pub-links a { text-decoration:none; }
+  .small-muted { color:#6b7280; font-size:.85rem; }
+  /* News styles */
+  .news-list { list-style:none; padding-left:0; overflow-y:auto; }
+  .news-item { background:#fff; border-radius:.5rem; box-shadow:0 1px 2px rgba(0,0,0,.08); padding:1rem; margin-bottom:.75rem; }
+  .news-title { font-weight:600; margin-bottom:.25rem; }
+  .news-title .news-date { font-weight:500; color:#555; margin-right:.5rem; }
+  .news-meta { color:#555; font-size:.9rem; margin-bottom:.25rem; }
+  .news-links a { text-decoration:none; }
+  .news-actions { text-align:center; margin-top:.5rem; }
+  #newsMoreBtn { padding:.5rem 1rem; border:none; border-radius:.5rem; background: var(--primary); color:#fff; cursor:pointer; }
+  #newsMoreBtn:hover { opacity:.9; }
+</style>
+  <script>
+    // ハンバーガーメニュー切替
+    function toggleMenu(){
+      const navList = document.getElementById('nav-list');
+      navList.style.display = navList.style.display === 'flex' ? 'none' : 'flex';
+    }
+  </script>
+  
+  <!-- Google tag (gtag.js)  -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-70G47Z4Q7D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    
+    gtag('config', 'G-70G47Z4Q7D');
+
+    // 単一ページ内（アンカー）遷移も page_view 計測したい場合の補助
+    window.addEventListener('hashchange', function(){
+      if (window.gtag){
+        gtag('event', 'page_view', {
+          page_location: location.href,
+          page_path: location.pathname + location.hash,
+          page_title: document.title
+        });
+      }
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="brand">広島大学 応用計算科学研究室</div>
+      <div class="menu-btn" onclick="toggleMenu()">☰</div>
+      <ul id="nav-list">
+        <li><a href="#home">ホーム</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#research">研究</a></li>
+        <li><a href="#members">メンバー</a></li>
+        <li><a href="#publications">成果発表</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1 style="font-size:2.0rem;margin-bottom:1rem;">本研究室について</h1>
+      <p>計算科学は科学技術の様々な問題を計算機により解明する学問です。本研究室は波動現象、特に音波・弾性波・電磁波を対象に、それらが関連する興味深い物理現象を計算科学と数理の力で探求する研究を行っています。</p>
+      <p>本研究室は広島大学 大学院先進理工系科学研究科 情報科学プログラムに所属しています。</p>
+    </section>
+
+    <section id="news" class="news">
+      <h2>News</h2>
+      <ul id="newsList" class="news-list"></ul>
+      <div class="news-actions"><button id="newsMoreBtn" type="button">もっと見る</button></div>
+    </section>
+
+    <section id="research">
+      <h2>研究テーマ</h2>
+      <div class="research-grid">
+        <div class="card">
+          <div class="card-media">
+            <img src="images/wave.png" alt="新奇な物理現象の探求">
+          </div>
+          <div class="card-body">
+            <h3>新奇な物理現象の探求</h3>
+            <p>音波・弾性波・電磁波などの波動現象に潜む新奇な物理現象を、計算科学と数理モデルにより解明します。特に、物体の透明化や音響・電磁遮蔽、完全レンズなどを可能とする「メタマテリアル」とエネルギー散逸機構に由来する「非エルミート」現象に関する研究を中心に行っています。</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-media">
+            <img src="images/modelling.png" alt="数値モデリングと数値解析">
+          </div>
+          <div class="card-body">
+            <h3>数理モデリングと数値解析</h3>
+            <p>解析対象を数学的モデルで表現する数理モデリングは計算科学の基盤です。本研究は偏微分方程式あるいは積分方程式による現象のモデリングと、その数値計算スキームの開発を行っています。</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-media">
+            <img src="images/topt.png" alt="最適設計">
+          </div>
+          <div class="card-body">
+            <h3>最適設計 (トポロジー最適化)</h3>
+            <p>所望の物理特性を最大化・最小化する物体の形状を決定する「最適設計」は近年大きな注目を集めています。本研究室は最適化理論と偏微分方程式論に立脚する最適設計アルゴリズムの構築を行っています。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="members" class="members">
+      <h2>メンバー</h2>
+      <ul>
+        <li><strong>助教：</strong><a href="https://researchmap.jp/kei_matsushima">松島 慶</a></li>
+        <!-- <li><strong>B4：</strong>鈴木 一郎</li> -->
+      </ul>
+    </section>
+
+    <section id="publications" class="publications">
+      <h2>成果発表</h2>
+      <div class="pub-controls">
+        <label>年: <select id="filterYear"><option value="">すべて</option></select></label>
+        <label>種別: <select id="filterType"><option value="">すべて</option></select></label>
+        <input type="search" id="filterSearch" placeholder="検索ワードを入力">
+      </div>
+      <ul id="pubList" class="pub-list"></ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>お問い合わせ</h2>
+      <p>〒739-8521 広島県東広島市鏡山1-7-1 総合科学部棟C</p>
+      <p>Email: info (at) acs.hiroshima-u.ac.jp</p>
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d736.6215516710309!2d132.71071774492793!3d34.39953440287253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35506e2b249e5e65%3A0xd9568e469aecdb11!2z44CSNzM5LTAwNDYg5bqD5bO255yM5p2x5bqD5bO25biC6Y-h5bGx77yR5LiB55uu77yXIOeglOeptuajn0M!5e0!3m2!1sja!2sjp!4v1755526966595!5m2!1sja!2sjp" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 広島大学 大学院先進理工系科学研究科 応用計算科学研究室
+  </footer>
+<script>
+(function(){
+  // ===== Publications (JSON) sync & render =====
+  var JSON_URL = 'https://raw.githubusercontent.com/k-matsushima-19/k-matsushima-19.github.io/refs/heads/master/acs/publications.json';
+
+  var LS_KEY = 'pubs_json_cache_v1';
+  var LS_TIME_KEY = 'pubs_json_cache_time_v1';
+
+  var elList   = document.getElementById('pubList');
+  var elYear   = document.getElementById('filterYear');
+  var elType   = document.getElementById('filterType');
+  var elSearch = document.getElementById('filterSearch');
+  var elSync   = document.getElementById('syncBtn');
+  var elStatus = document.getElementById('syncStatus');
+
+  function typeLabel(t){
+    var m = { article:'論文', inproceedings:'国際会議', proceedings:'会議録', book:'書籍', inbook:'書籍内', conference:'国内会議', misc:'その他' };
+    t = String(t || '').toLowerCase();
+    return m[t] || t;
+  }
+  function escapeHTML(s){
+    s = s == null ? '' : String(s);
+    s = s.split('&').join('&amp;');
+    s = s.split('<').join('&lt;');
+    s = s.split('>').join('&gt;');
+    s = s.split('"').join('&quot;');
+    s = s.split("'").join('&#39;');
+    return s;
+  }
+  function entryHTML(p){
+    var title = p.title || '(no title)';
+    var authors = Array.isArray(p.authors) ? p.authors.join(', ') : (p.authors || '');
+    var venue = p.venue ? ' — ' + p.venue : '';
+    var ym = p.year ? ' (' + p.year + (p.month ? '/' + (('0'+p.month).slice(-2)) : '') + ')' : '';
+    var links = [];
+    if(p.doi) links.push('<a target="_blank" rel="noopener" href="https://doi.org/' + encodeURIComponent(p.doi) + '">DOI</a>');
+    if(p.url) links.push('<a target="_blank" rel="noopener" href="' + escapeHTML(p.url) + '">URL</a>');
+    if(p.pdf) links.push('<a target="_blank" rel="noopener" href="' + escapeHTML(p.pdf) + '">PDF</a>');
+    var linksInline = links.length ? ' <span class="pub-links">' + links.join(' · ') + '</span>' : '';
+    return '<li class="pub-item" data-type="' + escapeHTML(p.type || '') + '" data-year="' + escapeHTML(p.year || '') + '">'
+      + '  <div class="pub-title">' + escapeHTML(title) + '</div>'
+      + '  <div class="pub-meta">' + escapeHTML(authors) + escapeHTML(venue) + escapeHTML(ym) + ' ・' + escapeHTML(typeLabel(p.type || '')) + linksInline + '</div>'
+      + '</li>';
+  }
+  function uniqueSorted(arr, cmp){
+    return Array.from(new Set((arr || []).filter(function(v){ return v !== '' && v != null; }))).sort(cmp);
+  }
+  function updateFilters(data){
+    var years = uniqueSorted(data.map(function(p){ return p.year; }), function(a,b){ return Number(b) - Number(a); });
+    elYear.innerHTML = '<option value="">すべて</option>' + years.map(function(y){ return '<option value="' + y + '">' + y + '</option>'; }).join('');
+    var types = uniqueSorted(data.map(function(p){ return String(p.type || '').toLowerCase(); }), function(a,b){ return a.localeCompare(b); });
+    elType.innerHTML = '<option value="">すべて</option>' + types.map(function(t){ return '<option value="' + t + '">' + typeLabel(t) + '</option>'; }).join('');
+  }
+  function filterData(all){
+  var y = elYear.value; var t = elType.value; var q = elSearch.value.trim().toLowerCase();
+  return all.filter(function(p){
+    if (y && String(p.year) !== y) return false;
+    if (t && String(p.type || '').toLowerCase() !== t) return false;
+    if (q){
+      var hay = [p.title, Array.isArray(p.authors)? p.authors.join(' ') : p.authors, p.venue, (p.tags || []).join(' ')]
+        .join(' ').toLowerCase();
+      if (hay.indexOf(q) === -1) return false;
+    }
+    return true;
+  });
+}
+  function render(data){
+    var list = filterData(data).slice().sort(function(a,b){
+      var ya = Number(a.year || 0), yb = Number(b.year || 0);
+      var ma = Number(a.month || 0), mb = Number(b.month || 0);
+      var yma = ya * 100 + ma;
+      var ymb = yb * 100 + mb;
+      if (yma !== ymb) return ymb - yma; // 年月の新しい順
+      return String(a.title || '').localeCompare(String(b.title || ''));
+    });
+    FILTERED = list;
+    elList.innerHTML = '';
+    renderedCount = 0;
+    renderMore();
+    setListMaxHeightToThree();
+  }
+  // Publications: state & infinite scroll helpers
+  var ALL = [];
+  var FILTERED = [];
+  var PAGE_SIZE = 3;
+  var renderedCount = 0;
+
+  function fetchJSON(){
+    return fetch(JSON_URL, { cache: 'no-store' }).then(function(res){
+      if(!res.ok) throw new Error('Fetch error: ' + res.status);
+      return res.json();
+    });
+  }
+
+  function renderMore(){
+    if(!FILTERED || !FILTERED.length) return;
+    var nextEnd = Math.min(renderedCount + PAGE_SIZE, FILTERED.length);
+    if(nextEnd <= renderedCount) return;
+    var html = FILTERED.slice(renderedCount, nextEnd).map(entryHTML).join('');
+    elList.insertAdjacentHTML('beforeend', html);
+    renderedCount = nextEnd;
+  }
+
+  function setListMaxHeightToThree(){
+    if(!elList) return;
+    requestAnimationFrame(function(){
+      var items = elList.querySelectorAll('.pub-item');
+      var n = Math.min(3, items.length);
+      var sum = 0;
+      for(var i=0;i<n;i++){
+        var li = items[i];
+        var cs = window.getComputedStyle(li);
+        sum += li.offsetHeight + (parseFloat(cs.marginBottom)||0);
+      }
+      if(sum>0){ elList.style.maxHeight = Math.ceil(sum) + 'px'; }
+      requestAnimationFrame(ensureOverflow);
+    });
+  }
+
+  function hasOverflow(){
+    return elList && (elList.scrollHeight > elList.clientHeight + 1);
+  }
+  function ensureOverflow(){
+    if(!elList) return;
+    var guard = 0;
+    while(!hasOverflow() && renderedCount < FILTERED.length && guard < 5){
+      renderMore();
+      guard++;
+    }
+  }
+
+  function loadPublications(){
+    if(!elList) return;
+    fetchJSON()
+      .then(function(data){
+        if(!Array.isArray(data)) data = [];
+        ALL = data;
+        updateFilters(data);
+        render(data);
+        setListMaxHeightToThree();
+        ensureOverflow();
+      })
+      .catch(function(err){ console.error(err); });
+  }
+
+  // filters re-render
+  ['filterYear','filterType','filterSearch'].forEach(function(id){
+    var el = document.getElementById(id);
+    if(el) el.addEventListener('input', function(){ render(ALL); });
+  });
+
+  // publications infinite scroll
+  if(elList){
+    elList.addEventListener('scroll', function(){
+      if(elList.scrollTop + elList.clientHeight >= elList.scrollHeight - 10){
+        renderMore();
+      }
+    });
+  }
+  window.addEventListener('resize', function(){ setListMaxHeightToThree(); ensureOverflow(); });
+
+  // initial load
+  loadPublications();
+
+  // ===== News (JSON) setup =====
+  var NEWS_JSON_URL = 'https://raw.githubusercontent.com/k-matsushima-19/k-matsushima-19.github.io/refs/heads/master/acs/news.json';
+  var newsListEl = document.getElementById('newsList');
+  var newsMoreBtn = document.getElementById('newsMoreBtn');
+  var NEWS_ALL = [];
+  var NEWS_SHOWN = 0;
+  var NEWS_PAGE_SIZE = 3;
+  function parseNewsDate(n){
+    if(n && n.date){ var d = new Date(n.date); if(!isNaN(d.getTime())) return d.getTime(); }
+    var y = Number(n.year||0), m = Number(n.month||1), d2 = Number(n.day||1);
+    if(!y) return 0;
+    return Date.UTC(y, (m?m-1:0), (d2||1));
+  }
+  function newsEntryHTML(n){
+    var dateLabel = n.date ? n.date : (
+      (n.year||'') + (n.month?('/'+('0'+n.month).slice(-2)):'') + (n.day?('/'+('0'+n.day).slice(-2)):'')
+    );
+    var title = n.title || '';
+    var body = n.body || n.text || '';
+    var links = [];
+    if(n.url) links.push('<a target="_blank" rel="noopener" href="' + escapeHTML(n.url) + '">Link</a>');
+    var linksInline = links.length ? ' <span class="news-links">' + links.join(' · ') + '</span>' : '';
+    var head = '';
+    if(dateLabel) head += '<span class="news-date">' + escapeHTML(dateLabel) + '</span>';
+    if(title) head += (head ? ' ' : '') + '<span class="news-title-text">' + escapeHTML(title) + '</span>';
+    return '<li class="news-item">'
+      + (head ? '<div class="news-title">' + head + '</div>' : '')
+      + (body ? '<div class="news-body">' + escapeHTML(body) + '</div>' : '')
+      + linksInline
+      + '</li>';
+  }
+  function renderNewsMore(){
+    if(!newsListEl) return;
+    if(!NEWS_ALL || !NEWS_ALL.length){ if(newsMoreBtn) newsMoreBtn.style.display = 'none'; return; }
+    var nextEnd = Math.min(NEWS_SHOWN + NEWS_PAGE_SIZE, NEWS_ALL.length);
+    if(nextEnd <= NEWS_SHOWN){ if(newsMoreBtn) newsMoreBtn.style.display = 'none'; return; }
+    var html = NEWS_ALL.slice(NEWS_SHOWN, nextEnd).map(newsEntryHTML).join('');
+    newsListEl.insertAdjacentHTML('beforeend', html);
+    NEWS_SHOWN = nextEnd;
+    if(newsMoreBtn){ newsMoreBtn.style.display = (NEWS_SHOWN < NEWS_ALL.length) ? 'inline-block' : 'none'; }
+  }
+  function renderNewsInit(data){
+    if(!newsListEl) return;
+    var list = Array.isArray(data) ? data.slice() : [];
+    list.sort(function(a,b){ return parseNewsDate(b) - parseNewsDate(a); });
+    NEWS_ALL = list;
+    newsListEl.innerHTML = '';  // ← クリアを追加
+    NEWS_SHOWN = 0;
+    renderNewsMore();
+  }
+  function loadNews(){
+    if(!newsListEl) return;
+    fetch(NEWS_JSON_URL, { cache: 'no-store' })
+      .then(function(res){ if(!res.ok) throw new Error('News fetch error: ' + res.status); return res.json(); })
+      .then(function(data){ renderNewsInit(data); })
+      .catch(function(err){ console.error(err); });
+  }
+  if(newsListEl) loadNews();
+
+  // --- News: switch to scroll-after-click (3 items tall, infinite scroll) ---
+  function setNewsMaxHeightToThree(){
+    if(!newsListEl) return;
+    requestAnimationFrame(function(){
+      var items = newsListEl.querySelectorAll('.news-item');
+      var n = Math.min(3, items.length);
+      var sum = 0;
+      for(var i=0;i<n;i++){
+        var li = items[i];
+        var cs = window.getComputedStyle(li);
+        sum += li.offsetHeight + (parseFloat(cs.marginBottom)||0);
+      }
+      if(sum>0){ newsListEl.style.maxHeight = Math.ceil(sum) + 'px'; }
+      requestAnimationFrame(ensureNewsOverflow);
+    });
+  }
+  function newsHasOverflow(){
+    return newsListEl && (newsListEl.scrollHeight > newsListEl.clientHeight + 1);
+  }
+  function ensureNewsOverflow(){
+    if(!newsListEl) return;
+    var guard = 0;
+    while(!newsHasOverflow() && NEWS_SHOWN < NEWS_ALL.length && guard < 5){
+      renderNewsMore();
+      guard++;
+    }
+  }
+  function newsInfiniteScrollHandler(){
+    if(newsListEl.scrollTop + newsListEl.clientHeight >= newsListEl.scrollHeight - 10){
+      renderNewsMore();
+    }
+  }
+  window.addEventListener('resize', function(){ setNewsMaxHeightToThree(); ensureNewsOverflow(); });
+
+  if(newsMoreBtn) newsMoreBtn.addEventListener('click', function(){
+    newsMoreBtn.style.display = 'none';
+    setNewsMaxHeightToThree();
+    ensureNewsOverflow();
+    newsListEl.addEventListener('scroll', newsInfiniteScrollHandler);
+  });
+    })();
+</script>
+</body>
+</html>
