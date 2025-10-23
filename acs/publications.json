@@ -42,5 +42,37 @@
     "venue": "日本機械学会 M&M2025 材料力学カンファレンス",
     "url": "https://www.jsme.or.jp/conference/mmdconf25/",
     "tags": ["JP", "JSME"]
+  },
+  {
+    "id": "kita2025optimal",
+    "title": "Optimal design problem with thermal radiation",
+    "authors": ["Kosuke Kita", "Kei Matsushima", "Tomoyuki Oka"],
+    "year": 2025,
+    "month": 12,
+    "type": "article",
+    "venue": "Partial Differential Equations in Applied Mathematics",
+    "doi": "10.1016/j.padiff.2025.101304",
+    "tags": ["EN"]
+  },
+  {
+    "id": "matsushima2025vlasov",
+    "title": "音波の散乱と共鳴の数値計算について",
+    "authors": ["松島 慶"],
+    "year": 2025,
+    "month": 10,
+    "type": "conference",
+    "venue": "第3回Vlasov勉強会",
+    "tags": ["JP", "invited"]
+  },
+  {
+    "id": "matsushima2025symposium",
+    "title": "音響・弾性波動に関連する数値計算と最適設計",
+    "authors": ["松島 慶"],
+    "year": 2025,
+    "month": 12,
+    "type": "conference",
+    "venue": "第15回計算力学シンポジウム",
+    "url": "https://www.scj.go.jp/ja/event/2025/392-s-1202.html",
+    "tags": ["JP", "invited"]
   }
 ]
