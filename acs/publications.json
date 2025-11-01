@@ -74,5 +74,15 @@
     "venue": "第15回計算力学シンポジウム",
     "url": "https://www.scj.go.jp/ja/event/2025/392-s-1202.html",
     "tags": ["JP", "invited"]
+  },
+  {
+    "id": "matsushima2025jascome",
+    "title": "連続核を有する第2種Fredholm積分方程式に対するNyström法に基づく精度保証付き数値計算",
+    "authors": ["松島 慶"],
+    "year": 2025,
+    "month": 12,
+    "type": "article",
+    "venue": "計算数理工学論文集",
+    "tags": ["JP"]
   }
 ]
