@@ -185,6 +185,10 @@
   .news-actions { text-align:center; margin-top:.5rem; }
   #newsMoreBtn { padding:.5rem 1rem; border:none; border-radius:.5rem; background: var(--primary); color:#fff; cursor:pointer; }
   #newsMoreBtn:hover { opacity:.9; }
+  .fund-list { list-style:none; padding-left:0; }
+  .fund-item { background:#fff; border-radius:.5rem; box-shadow:0 1px 2px rgba(0,0,0,.08); padding:1rem; margin-bottom:.75rem; }
+  .fund-title { font-weight:600; margin-bottom:.25rem; }
+  .fund-meta { color:#555; font-size:.95rem; }
 </style>
   <script>
     // ハンバーガーメニュー切替
@@ -293,6 +297,11 @@
         <input type="search" id="filterSearch" placeholder="検索ワードを入力">
       </div>
       <ul id="pubList" class="pub-list"></ul>
+    </section>
+
+    <section id="fund" class="fund">
+      <h2>共同研究・競争的資金・研究助成</h2>
+      <ul id="fundList" class="fund-list"></ul>
     </section>
 
     <section id="contact" class="contact">
@@ -569,7 +578,62 @@
     ensureNewsOverflow();
     newsListEl.addEventListener('scroll', newsInfiniteScrollHandler);
   });
-    })();
+      // ===== Fund (JSON) =====
+  var FUND_JSON_URL = 'https://raw.githubusercontent.com/k-matsushima-19/k-matsushima-19.github.io/refs/heads/master/acs/fund.json';
+  var fundListEl = document.getElementById('fundList');
+
+  function val(v, alt){ return (v==null || v==='') ? (alt||'') : v; }
+  function y(v){ var n = Number(v); return isFinite(n) && n>0 ? String(n) : ''; }
+  function roleLabel(r){
+    var s = String(r||'').toLowerCase();
+    if(s==='pi' || s==='代表' || s==='principal' || s==='principal investigator') return '代表';
+    if(s==='coi' || s==='co-i' || s==='分担' || s==='coinvestigator' || s==='co-investigator') return '分担';
+    return r || '';
+  }
+  function fundEntryHTML(f){
+    var title = val(f.title, f.project || f.name || '');
+    var fund  = val(f.fund, f.agency || f.program || '');
+    var sy    = y(f.start_year || f.startYear || f.start);
+    var ey    = y(f.end_year   || f.endYear   || f.end);
+    var role  = roleLabel(val(f.role, f.position || ''));
+
+    var ym = (sy || ey) ? (sy + '–' + (ey || '')) : '';
+    var meta = [fund, ym, role].filter(Boolean).join(' ・ ');
+
+    return '<li class="fund-item">'
+      + (title ? '<div class="fund-title">' + escapeHTML(title) + '</div>' : '')
+      + (meta ?  '<div class="fund-meta">'  + escapeHTML(meta)  + '</div>' : '')
+      + '</li>';
+  }
+  function parseStartKey(f){
+    return Number(f.start_year || f.startYear || f.start || 0) || 0;
+  }
+  function parseEndKey(f){
+    return Number(f.end_year || f.endYear || f.end || 0) || 0;
+  }
+  function renderFund(data){
+    if(!fundListEl) return;
+    var list = Array.isArray(data) ? data.slice() : [];
+    list.sort(function(a,b){
+      var as = parseStartKey(a), bs = parseStartKey(b);
+      if(as !== bs) return bs - as; // 開始年の新しい順
+      var ae = parseEndKey(a), be = parseEndKey(b);
+      if(ae !== be) return be - ae; // 次に終了年
+      var at = String(a.title || a.project || a.name || '');
+      var bt = String(b.title || b.project || b.name || '');
+      return at.localeCompare(bt);
+    });
+    fundListEl.innerHTML = list.map(fundEntryHTML).join('');
+  }
+  function loadFund(){
+    if(!fundListEl) return;
+    fetch(FUND_JSON_URL, { cache: 'no-store' })
+      .then(function(res){ if(!res.ok) throw new Error('Fund fetch error: ' + res.status); return res.json(); })
+      .then(function(data){ renderFund(data); })
+      .catch(function(err){ console.error(err); });
+  }
+  if(fundListEl) loadFund();
+})();
 </script>
 </body>
 </html>
