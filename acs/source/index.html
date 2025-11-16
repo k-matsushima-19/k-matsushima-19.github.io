@@ -597,7 +597,7 @@
     var ey    = y(f.end_year   || f.endYear   || f.end);
     var role  = roleLabel(val(f.role, f.position || ''));
 
-    var ym = (sy || ey) ? (sy + '–' + (ey || '')) : '';
+    var ym = (sy || ey) ? ((sy && ey ? (sy + '–' + ey) : (sy || ey)) + '年度') : '';
     var meta = [fund, ym, role].filter(Boolean).join(' ・ ');
 
     return '<li class="fund-item">'
@@ -615,14 +615,21 @@
     if(!fundListEl) return;
     var list = Array.isArray(data) ? data.slice() : [];
     list.sort(function(a,b){
-      var as = parseStartKey(a), bs = parseStartKey(b);
-      if(as !== bs) return bs - as; // 開始年の新しい順
-      var ae = parseEndKey(a), be = parseEndKey(b);
-      if(ae !== be) return be - ae; // 次に終了年
-      var at = String(a.title || a.project || a.name || '');
-      var bt = String(b.title || b.project || b.name || '');
-      return at.localeCompare(bt);
-    });
+    // 終了年度（未記入は「継続中」とみなし 9999 扱いで先頭に）
+    var ae = parseEndKey(a) || 9999;
+    var be = parseEndKey(b) || 9999;
+    if (ae !== be) return be - ae;   // ← 終了年度の新しい順
+
+    // 同年なら開始年度の新しい順
+    var as = parseStartKey(a) || 0;
+    var bs = parseStartKey(b) || 0;
+    if (as !== bs) return bs - as;
+
+    // さらに同じならタイトルで安定ソート
+    var at = String(a.title || a.project || a.name || '');
+    var bt = String(b.title || b.project || b.name || '');
+    return at.localeCompare(bt);
+  });
     fundListEl.innerHTML = list.map(fundEntryHTML).join('');
   }
   function loadFund(){
