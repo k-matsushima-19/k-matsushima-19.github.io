@@ -185,7 +185,7 @@
   .news-actions { text-align:center; margin-top:.5rem; }
   #newsMoreBtn { padding:.5rem 1rem; border:none; border-radius:.5rem; background: var(--primary); color:#fff; cursor:pointer; }
   #newsMoreBtn:hover { opacity:.9; }
-  .fund-list { list-style:none; padding-left:0; }
+  .fund-list { list-style:none; padding-left:0; overflow-y: auto; }
   .fund-item { background:#fff; border-radius:.5rem; box-shadow:0 1px 2px rgba(0,0,0,.08); padding:1rem; margin-bottom:.75rem; }
   .fund-title { font-weight:600; margin-bottom:.25rem; }
   .fund-meta { color:#555; font-size:.95rem; }
@@ -616,22 +616,16 @@
     if(!fundListEl) return;
     var list = Array.isArray(data) ? data.slice() : [];
     list.sort(function(a,b){
-    // 終了年度（未記入は「継続中」とみなし 9999 扱いで先頭に）
-    var ae = parseEndKey(a) || 9999;
-    var be = parseEndKey(b) || 9999;
-    if (ae !== be) return be - ae;   // ← 終了年度の新しい順
-
-    // 同年なら開始年度の新しい順
-    var as = parseStartKey(a) || 0;
-    var bs = parseStartKey(b) || 0;
-    if (as !== bs) return bs - as;
-
-    // さらに同じならタイトルで安定ソート
-    var at = String(a.title || a.project || a.name || '');
-    var bt = String(b.title || b.project || b.name || '');
-    return at.localeCompare(bt);
-  });
+      var as = parseStartKey(a), bs = parseStartKey(b);
+      if(as !== bs) return bs - as; // 開始年の新しい順
+      var ae = parseEndKey(a), be = parseEndKey(b);
+      if(ae !== be) return be - ae; // 次に終了年
+      var at = String(a.title || a.project || a.name || '');
+      var bt = String(b.title || b.project || b.name || '');
+      return at.localeCompare(bt);
+    });
     fundListEl.innerHTML = list.map(fundEntryHTML).join('');
+    setFundMaxHeightToThree();
   }
   function loadFund(){
     if(!fundListEl) return;
@@ -641,6 +635,21 @@
       .catch(function(err){ console.error(err); });
   }
   if(fundListEl) loadFund();
+
+  function setFundMaxHeightToThree(){
+    if(!fundListEl) return;
+    requestAnimationFrame(function(){
+      var items = fundListEl.querySelectorAll('.fund-item');
+      var n = Math.min(3, items.length);
+      var sum = 0;
+      for(var i=0;i<n;i++){
+        var li = items[i];
+        var cs = window.getComputedStyle(li);
+        sum += li.offsetHeight + (parseFloat(cs.marginBottom)||0);
+      }
+      if(sum>0){ fundListEl.style.maxHeight = Math.ceil(sum) + 'px'; }
+    });
+  }
 })();
 </script>
 </body>
