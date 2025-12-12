@@ -84,5 +84,36 @@
     "type": "article",
     "venue": "計算数理工学論文集",
     "tags": ["JP"]
+  },
+  {
+    "id": "deguchi2025jascome",
+    "title": "6mm六方格子粘弾性体の均質化法に基づく数値的検証とトポロジー最適化による複素弾性率境界の実現",
+    "authors": ["出口 広哲", "松島 慶", "山田 崇恭"],
+    "year": 2025,
+    "month": 12,
+    "type": "article",
+    "venue": "計算数理工学論文集",
+    "tags": ["JP"]
+  },
+  {
+    "id": "itoh2025jascome",
+    "title": "任意次元におけるHelmholtz方程式に関するTranslational Addition Theoremを用いた複数の超球面による散乱の解析",
+    "authors": ["伊藤 博望", "松島 慶", "山田 崇恭"],
+    "year": 2025,
+    "month": 12,
+    "type": "article",
+    "venue": "計算数理工学論文集",
+    "tags": ["JP"]
+  },
+  {
+    "id": "matsushima2026kozwave",
+    "title": "Numerical study of exceptional points in two- and three-dimensional elastic solids",
+    "authors": ["Hiroaki Deguchi", "Kei Matsushima", "Takayuki Yamada"],
+    "year": 2026,
+    "month": 1,
+    "type": "conference",
+    "venue": "KOZWaves 2026",
+    "url": "https://kozwaves2026.org/",
+    "tags": ["EN"]
   }
 ]
