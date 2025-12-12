@@ -111,7 +111,7 @@
     "authors": ["Hiroaki Deguchi", "Kei Matsushima", "Takayuki Yamada"],
     "year": 2026,
     "month": 1,
-    "type": "conference",
+    "type": "inproceedings",
     "venue": "KOZWaves 2026",
     "url": "https://kozwaves2026.org/",
     "tags": ["EN"]
