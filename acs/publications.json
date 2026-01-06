@@ -83,7 +83,8 @@
     "month": 12,
     "type": "article",
     "venue": "計算数理工学論文集",
-    "tags": ["JP"]
+    "tags": ["JP"],
+    "doi": "10.60443/jascome.25.0_43"
   },
   {
     "id": "deguchi2025jascome",
@@ -93,7 +94,8 @@
     "month": 12,
     "type": "article",
     "venue": "計算数理工学論文集",
-    "tags": ["JP"]
+    "tags": ["JP"],
+    "doi": "10.60443/jascome.25.0_121"
   },
   {
     "id": "itoh2025jascome",
@@ -103,7 +105,41 @@
     "month": 12,
     "type": "article",
     "venue": "計算数理工学論文集",
-    "tags": ["JP"]
+    "tags": ["JP"],
+    "doi": "10.60443/jascome.25.0_143"
+  },
+  {
+    "id": "matsushima2025jascome-talk",
+    "title": "連続核を有する第2種Fredholm積分方程式に対するNyström法に基づく精度保証付き数値計算",
+    "authors": ["松島 慶"],
+    "year": 2025,
+    "month": 12,
+    "type": "conference",
+    "venue": "計算数理工学シンポジウム2026",
+    "tags": ["JP"],
+    "url": "https://www.jascome.org/event/jascome/jascome2026.html"
+  },
+  {
+    "id": "deguchi2025jascome-talk",
+    "title": "6mm六方格子粘弾性体の均質化法に基づく数値的検証とトポロジー最適化による複素弾性率境界の実現",
+    "authors": ["出口 広哲", "松島 慶", "山田 崇恭"],
+    "year": 2025,
+    "month": 12,
+    "type": "conference",
+    "venue": "計算数理工学シンポジウム2026",
+    "tags": ["JP"],
+    "url": "https://www.jascome.org/event/jascome/jascome2026.html"
+  },
+  {
+    "id": "itoh2025jascome-talk",
+    "title": "任意次元におけるHelmholtz方程式に関するTranslational Addition Theoremを用いた複数の超球面による散乱の解析",
+    "authors": ["伊藤 博望", "松島 慶", "山田 崇恭"],
+    "year": 2025,
+    "month": 12,
+    "type": "conference",
+    "venue": "計算数理工学シンポジウム2026",
+    "tags": ["JP"],
+    "url": "https://www.jascome.org/event/jascome/jascome2026.html"
   },
   {
     "id": "matsushima2026kozwave",
@@ -115,5 +151,16 @@
     "venue": "KOZWaves 2026",
     "url": "https://kozwaves2026.org/",
     "tags": ["EN"]
+  },
+  {
+    "id": "matsushima2026RIMS",
+    "title": "Inverse design in wave physics: metamaterials and invisibility cloaking",
+    "authors": ["Kei Matsushima"],
+    "year": 2026,
+    "month": 1,
+    "type": "inproceedings",
+    "venue": "Inverse problems for partial differential equations and related areas",
+    "url": "https://sites.google.com/view/rimsinverseproblem2026/",
+    "tags": ["EN", "invited"]
   }
 ]
