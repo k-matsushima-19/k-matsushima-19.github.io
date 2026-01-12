@@ -153,6 +153,17 @@
     "tags": ["EN"]
   },
   {
+    "id": "peter2026kozwave",
+    "title": "Acoustic lattice resonances and generalised Rayleigh–Bloch waves",
+    "authors": ["Malte A. Peter", "Luke G. Bennetts", "Gregory J. Chaplain", "Stuart C. Hawkins", "Kei Matsushima", "Timothy A. Starkey"],
+    "year": 2026,
+    "month": 1,
+    "type": "inproceedings",
+    "venue": "KOZWaves 2026",
+    "url": "https://kozwaves2026.org/",
+    "tags": ["EN"]
+  },
+  {
     "id": "matsushima2026RIMS",
     "title": "Inverse design in wave physics: metamaterials and invisibility cloaking",
     "authors": ["Kei Matsushima"],
