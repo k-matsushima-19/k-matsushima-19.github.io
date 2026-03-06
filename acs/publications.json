@@ -173,5 +173,49 @@
     "venue": "Inverse problems for partial differential equations and related areas",
     "url": "https://sites.google.com/view/rimsinverseproblem2026/",
     "tags": ["EN", "invited"]
-  }
+  },
+  {
+    "id": "matsushima2026JSIAM",
+    "title": "Woodのアノマリと擬周期Green関数の周波数不連続性に関する考察",
+    "authors": ["松島 慶", "飯盛 浩司"],
+    "year": 2026,
+    "month": 3,
+    "type": "conference",
+    "venue": "日本応用数理学会 第22回研究部会連合発表会",
+    "tags": ["JP"],
+    "url": "https://jsiam.org/jsiam_archive/past_presentations/union2026"
+  },
+  {
+    "id": "matsushima2026nctam",
+    "title": "有限階作用素による境界積分方程式の安定化について",
+    "authors": ["松島 慶"],
+    "year": 2026,
+    "month": 5,
+    "type": "conference",
+    "venue": "第68回理論応⽤⼒学講演会",
+    "tags": ["JP"],
+    "url": "https://pub.confit.atlas.jp/ja/event/jsceam2026"
+  },
+  {
+    "id": "matsushima2026jsces",
+    "title": "Helmholtz方程式の基本解と境界積分方程式の低周波破綻に関する考察",
+    "authors": ["松島 慶"],
+    "year": 2026,
+    "month": 6,
+    "type": "conference",
+    "venue": "第31回計算工学講演会",
+    "tags": ["JP"],
+    "url": "https://www.jsces.org/koenkai/31/"
+  },
+  {
+    "id": "matsushima2026WCCM",
+    "title": "A verified Nyström method for boundary integral equations in two dimensions",
+    "authors": ["Kei Matsushima"],
+    "year": 2026,
+    "month": 7,
+    "type": "inproceedings",
+    "venue": "17th World Congress on Computational Mechanics & 10th European Congress on Computational Methods in Applied Sciences and Engineering (WCCM-ECCOMAS 2026)",
+    "url": "https://wccm-eccomas2026.org/",
+    "tags": ["EN"]
+  },
 ]
