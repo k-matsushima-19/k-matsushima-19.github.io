@@ -217,5 +217,71 @@
     "venue": "17th World Congress on Computational Mechanics & 10th European Congress on Computational Methods in Applied Sciences and Engineering (WCCM-ECCOMAS 2026)",
     "url": "https://wccm-eccomas2026.org/",
     "tags": ["EN"]
+  },
+  {
+    "id": "deguchi2026comp",
+    "title": "Topology optimization of isotropic viscoelastic microstructures based on periodic homogenization",
+    "authors": ["Hiroaki Deguchi", "Kei Matsushima", "Takayuki Yamada"],
+    "year": 2026,
+    "month": 8,
+    "type": "article",
+    "venue": "Composite Structures",
+    "tags": ["EN"],
+    "doi": "10.1016/j.compstruct.2026.120670"
+  },
+  {
+    "id": "matsushima2026waves",
+    "title": "Exceptional points and defective resonances in a sound-soft scattering problem",
+    "authors": ["Kei Matsushima"],
+    "year": 2026,
+    "month": 6,
+    "type": "inproceedings",
+    "venue": "The 17th International Conference on Mathematical and Numerical Aspects of Wave Propagation (WAVES 2026)",
+    "url": "https://www.waves2026.org/",
+    "tags": ["EN"]
+  },
+  {
+    "id": "matsushima2026EASIAM",
+    "title": "Optimal design of two-material thermal conductors with thermal radiation",
+    "authors": ["Kosuke Kita", "Kei Matsushima", "Tomoyuki Oka"],
+    "year": 2026,
+    "month": 8,
+    "type": "inproceedings",
+    "venue": "The 19th EASIAM Annual Meeting (EASIAM 2026)",
+    "url": "https://easiam26.github.io/",
+    "tags": ["EN"]
+  },
+  {
+    "id": "matsushima2026acusticum",
+    "title": "Tracking Rayleigh-Bloch waves in periodic arrays of penetrable scatterers",
+    "authors": ["Kei Matsushima", "Luke G. Bennetts", "Malte A. Peter"],
+    "year": 2026,
+    "month": 9,
+    "type": "inproceedings",
+    "venue": "Forum Acusticum 2026",
+    "url": "https://forum-acusticum.org/fa2026/",
+    "tags": ["EN"]
+  },
+  {
+    "id": "matsushima2026ini",
+    "title": "Green's function-based numerical methods for diffraction gratings and Rayleigh-Bloch waves",
+    "authors": ["Kei Matsushima"],
+    "year": 2026,
+    "month": 8,
+    "type": "inproceedings",
+    "venue": "Isaac Newton Institute for Mathematical Sciences: Multiple Wave Scattering in Locally Resonant Materials with Degrees of (Dis)Order",
+    "url": "https://www.newton.ac.uk/event/mwsw06/",
+    "tags": ["EN"]
+  },
+  {
+    "id": "matsushima2026copula",
+    "title": "形状を表現するデータと最適設計について",
+    "authors": ["松島 慶"],
+    "year": 2026,
+    "month": 5,
+    "type": "conference",
+    "venue": "統計数理研究所 2026共同研究集会「コピュラ理論の新展開」第一回",
+    "url": "https://sites.google.com/view/statistician-takeshi/%E3%82%B3%E3%83%94%E3%83%A5%E3%83%A9%E7%A0%94%E7%A9%B6%E9%9B%86%E4%BC%9A",
+    "tags": ["JP"]
   }
 ]
