@@ -283,5 +283,93 @@
     "venue": "統計数理研究所 2026共同研究集会「コピュラ理論の新展開」第一回",
     "url": "https://sites.google.com/view/statistician-takeshi/%E3%82%B3%E3%83%94%E3%83%A5%E3%83%A9%E7%A0%94%E7%A9%B6%E9%9B%86%E4%BC%9A",
     "tags": ["JP"]
+  },
+  {
+    "id": "itoh2026dsd",
+    "title": "境界積分方程式に基づく2次元音響メタマテリアルの形状最適化における正則化",
+    "authors": ["伊藤 博望", "松島 慶", "山田 崇恭"],
+    "year": 2026,
+    "month": 8,
+    "type": "conference",
+    "venue": "日本機械学会 第36回設計工学・システム部門講演会",
+    "url": "https://pub.confit.atlas.jp/ja/event/dsdconf26",
+    "tags": ["JP", "JSME"]
+  },
+  {
+    "id": "deguchi2026dsd",
+    "title": "複素均質化法に基づく等方粘弾性率境界の数値的検証",
+    "authors": ["出口 広哲", "松島 慶", "山田 崇恭"],
+    "year": 2026,
+    "month": 8,
+    "type": "conference",
+    "venue": "日本機械学会 第36回設計工学・システム部門講演会",
+    "url": "https://pub.confit.atlas.jp/ja/event/dsdconf26",
+    "tags": ["JP", "JSME"]
+  },
+  {
+    "id": "itoh2026cmd",
+    "title": "非線形固有振動数の局所分布の見積もりに関する数値計算法の考察",
+    "authors": ["伊藤 博望", "松島 慶", "山田 崇恭"],
+    "year": 2026,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本機械学会 第39回計算力学講演会 (CMD2026)",
+    "url": "https://www.jsme.or.jp/conference/cmdconf26/",
+    "tags": ["JP", "JSME"]
+  },
+  {
+    "id": "matsushima2026annual",
+    "title": "積分方程式に対するNyström法のパラメータ安定性に関する考察",
+    "authors": ["松島 慶"],
+    "year": 2026,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本応用数理学会 2026年度年会",
+    "url": "https://jsiam.org/jsiam_archive/past_meetings/annual2026/",
+    "tags": ["JP"]
+  },
+  {
+    "id": "matsumoto2026annual",
+    "title": "散乱問題におけるフレドホルム第2種のバートン・ミラー型境界積分方程式",
+    "authors": ["松本 安弘", "松島 慶"],
+    "year": 2026,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本応用数理学会 2026年度年会",
+    "url": "https://jsiam.org/jsiam_archive/past_meetings/annual2026/",
+    "tags": ["JP"]
+  },
+  {
+    "id": "matsushima2026ksmejsme",
+    "title": "Designing non-Hermitian systems with structural optimization",
+    "authors": ["Kei Matsushima"],
+    "year": 2026,
+    "month": 8,
+    "type": "inproceedings",
+    "venue": "10th KSME-JSME Joint Symposium on Computational Mechanics and CAE 2026",
+    "url": "https://sites.google.com/view/ksme-jsme-joint-symposium/",
+    "tags": ["EN", "invited"]
+  },
+  {
+    "id": "itoh2026acsmo",
+    "title": "On the Computation of Functional Gradient Using Hilbertian Regularization with Boundary Integral Formulation for the Two-Dimensional Helmholtz Equation",
+    "authors": ["Hiromochi Itoh", "Kei Matsushima", "Takayuki Yamada"],
+    "year": 2026,
+    "month": 5,
+    "type": "inproceedings",
+    "venue": "Asian Congress of Structural and Multidisciplinary Optimization 2026 (ACSMO 2026)",
+    "url": "https://acsmo2026.org/",
+    "tags": ["EN"]
+  },
+  {
+    "id": "oka2026JSIAM",
+    "title": "非定常性を伴う最適設計問題に於ける直接緩和性について",
+    "authors": ["岡 大将", "松島 慶"],
+    "year": 2026,
+    "month": 3,
+    "type": "conference",
+    "venue": "日本応用数理学会 第22回研究部会連合発表会",
+    "url": "https://jsiam.org/jsiam_archive/past_presentations/union2026",
+    "tags": ["JP"]
   }
 ]
