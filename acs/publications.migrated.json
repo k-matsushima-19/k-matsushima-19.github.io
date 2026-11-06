@@ -1,0 +1,3787 @@
+[
+  {
+    "id": "matsushima2025exceptional",
+    "title": "Exceptional points and defective resonances in an acoustic scattering system with sound-hard obstacles",
+    "authors": [
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2025,
+    "month": 8,
+    "type": "article",
+    "venue": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+    "doi": "10.1098/rspa.2025.0230",
+    "tags": [
+      "EN"
+    ]
+  },
+  {
+    "id": "matsushima2025cmd",
+    "title": "境界積分作用素族の固有値とそのJordan鎖の数値計算",
+    "authors": [
+      "松島 慶",
+      "山田 崇恭"
+    ],
+    "year": 2025,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本機械学会 第38回計算力学講演会 (CMD2025)",
+    "url": "https://www.jsme.or.jp/conference/cmdconf25/",
+    "tags": [
+      "JP",
+      "JSME"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "信州大学工学部",
+    "start_date": "2025-09-24",
+    "end_date": "2025-09-26",
+    "legacy_talk_number": 117,
+    "legacy_venue_text": "日本機械学会 第37回計算力学講演会（CMD2025）, 信州大学工学部",
+    "legacy_date_text": "2025年9月24–26日"
+  },
+  {
+    "id": "matsushima2025wakate",
+    "title": "2次元音響散乱問題の共鳴の縮退に関する数値計算",
+    "authors": [
+      "松島 慶",
+      "山田 崇恭"
+    ],
+    "year": 2025,
+    "month": 8,
+    "type": "conference",
+    "venue": "日本機械学会 M&M・CMD若手シンポジウム2025",
+    "url": "https://www.jsme.or.jp/conference/mmdcmdconf25/",
+    "tags": [
+      "JP",
+      "JSME"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "KKRホテル名古屋",
+    "start_date": "2025-08-27",
+    "end_date": "2025-08-29",
+    "legacy_talk_number": 119,
+    "legacy_venue_text": "日本機械学会 M&M・CMD若手シンポジウム2025, KKRホテル名古屋",
+    "legacy_date_text": "2025年8月27–29日"
+  },
+  {
+    "id": "matsushima2025mam",
+    "title": "最適化理論に基づく非エルミート系における構造設計",
+    "authors": [
+      "松島 慶",
+      "山田 崇恭"
+    ],
+    "year": 2025,
+    "month": 11,
+    "type": "conference",
+    "venue": "日本機械学会 M&M2025 材料力学カンファレンス",
+    "url": "https://www.jsme.or.jp/conference/mmdconf25/",
+    "tags": [
+      "JP",
+      "JSME"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "熊本城ホール",
+    "start_date": "2025-11-10",
+    "end_date": "2025-11-13",
+    "legacy_talk_number": 121,
+    "legacy_venue_text": "日本機械学会 M&M2025 材料力学カンファレンス, 熊本城ホール",
+    "legacy_date_text": "2025年11月10–13日"
+  },
+  {
+    "id": "kita2025optimal",
+    "title": "Optimal design problem with thermal radiation",
+    "authors": [
+      "Kosuke Kita",
+      "Kei Matsushima",
+      "Tomoyuki Oka"
+    ],
+    "year": 2025,
+    "month": 12,
+    "type": "article",
+    "venue": "Partial Differential Equations in Applied Mathematics",
+    "doi": "10.1016/j.padiff.2025.101304",
+    "tags": [
+      "EN"
+    ]
+  },
+  {
+    "id": "matsushima2025vlasov",
+    "title": "音波の散乱と共鳴の数値計算について",
+    "authors": [
+      "松島 慶"
+    ],
+    "year": 2025,
+    "month": 10,
+    "type": "conference",
+    "venue": "第3回Vlasov勉強会",
+    "tags": [
+      "JP",
+      "invited"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "北海道大学札幌キャンパス",
+    "start_date": "2025-10-14",
+    "end_date": "2025-10-15",
+    "legacy_talk_number": 122,
+    "legacy_venue_text": "第3回Vlasov勉強会, 北海道大学札幌キャンパス",
+    "legacy_date_text": "2025年10月14–15日"
+  },
+  {
+    "id": "matsushima2025symposium",
+    "title": "音響・弾性波動に関連する数値計算と最適設計",
+    "authors": [
+      "松島 慶"
+    ],
+    "year": 2025,
+    "month": 12,
+    "type": "conference",
+    "venue": "第15回計算力学シンポジウム",
+    "url": "https://www.scj.go.jp/ja/event/2025/392-s-1202.html",
+    "tags": [
+      "JP",
+      "invited"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "日本学術会議講堂",
+    "start_date": "2025-12-02",
+    "end_date": "2025-12-02",
+    "legacy_talk_number": 123,
+    "legacy_venue_text": "第15回計算力学シンポジウム, 日本学術会議講堂",
+    "legacy_date_text": "2025年12月2日"
+  },
+  {
+    "id": "matsushima2025jascome",
+    "title": "連続核を有する第2種Fredholm積分方程式に対するNyström法に基づく精度保証付き数値計算",
+    "authors": [
+      "松島 慶"
+    ],
+    "year": 2025,
+    "month": 12,
+    "type": "article",
+    "venue": "計算数理工学論文集",
+    "tags": [
+      "JP"
+    ],
+    "doi": "10.60443/jascome.25.0_43"
+  },
+  {
+    "id": "deguchi2025jascome",
+    "title": "6mm六方格子粘弾性体の均質化法に基づく数値的検証とトポロジー最適化による複素弾性率境界の実現",
+    "authors": [
+      "出口 広哲",
+      "松島 慶",
+      "山田 崇恭"
+    ],
+    "year": 2025,
+    "month": 12,
+    "type": "article",
+    "venue": "計算数理工学論文集",
+    "tags": [
+      "JP"
+    ],
+    "doi": "10.60443/jascome.25.0_121"
+  },
+  {
+    "id": "itoh2025jascome",
+    "title": "任意次元におけるHelmholtz方程式に関するTranslational Addition Theoremを用いた複数の超球面による散乱の解析",
+    "authors": [
+      "伊藤 博望",
+      "松島 慶",
+      "山田 崇恭"
+    ],
+    "year": 2025,
+    "month": 12,
+    "type": "article",
+    "venue": "計算数理工学論文集",
+    "tags": [
+      "JP"
+    ],
+    "doi": "10.60443/jascome.25.0_143"
+  },
+  {
+    "id": "matsushima2025jascome-talk",
+    "title": "連続核を有する第2種Fredholm積分方程式に対するNyström法に基づく精度保証付き数値計算",
+    "authors": [
+      "松島 慶"
+    ],
+    "year": 2025,
+    "month": 12,
+    "type": "conference",
+    "venue": "計算数理工学シンポジウム2025",
+    "tags": [
+      "JP"
+    ],
+    "url": "https://www.jascome.org/event/jascome/jascome2025.html",
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "ニューサンピア姫路ゆめさき",
+    "start_date": "2025-12-19",
+    "end_date": "2025-12-20",
+    "legacy_talk_number": 124,
+    "legacy_venue_text": "計算数理工学シンポジウム2025, ニューサンピア姫路ゆめさき",
+    "legacy_date_text": "2025年12月19–20日"
+  },
+  {
+    "id": "deguchi2025jascome-talk",
+    "title": "6mm六方格子粘弾性体の均質化法に基づく数値的検証とトポロジー最適化による複素弾性率境界の実現",
+    "authors": [
+      "出口 広哲",
+      "松島 慶",
+      "山田 崇恭"
+    ],
+    "year": 2025,
+    "month": 12,
+    "type": "conference",
+    "venue": "計算数理工学シンポジウム2025",
+    "tags": [
+      "JP"
+    ],
+    "url": "https://www.jascome.org/event/jascome/jascome2025.html",
+    "presenters": [
+      "出口広哲"
+    ],
+    "location": "ニューサンピア姫路ゆめさき",
+    "start_date": "2025-12-19",
+    "end_date": "2025-12-20",
+    "legacy_talk_number": 126,
+    "legacy_venue_text": "計算数理工学シンポジウム2025, ニューサンピア姫路ゆめさき",
+    "legacy_date_text": "2025年12月19–20日"
+  },
+  {
+    "id": "itoh2025jascome-talk",
+    "title": "任意次元におけるHelmholtz方程式に関するTranslational Addition Theoremを用いた複数の超球面による散乱の解析",
+    "authors": [
+      "伊藤 博望",
+      "松島 慶",
+      "山田 崇恭"
+    ],
+    "year": 2025,
+    "month": 12,
+    "type": "conference",
+    "venue": "計算数理工学シンポジウム2025",
+    "tags": [
+      "JP"
+    ],
+    "url": "https://www.jascome.org/event/jascome/jascome2025.html",
+    "presenters": [
+      "伊藤博望"
+    ],
+    "location": "ニューサンピア姫路ゆめさき",
+    "start_date": "2025-12-19",
+    "end_date": "2025-12-20",
+    "legacy_talk_number": 125,
+    "legacy_venue_text": "計算数理工学シンポジウム2025, ニューサンピア姫路ゆめさき",
+    "legacy_date_text": "2025年12月19–20日"
+  },
+  {
+    "id": "matsushima2026kozwave",
+    "title": "Numerical study of exceptional points in two- and three-dimensional elastic solids",
+    "authors": [
+      "Hiroaki Deguchi",
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2026,
+    "month": 1,
+    "type": "inproceedings",
+    "venue": "KOZWaves 2026",
+    "url": "https://kozwaves2026.org/",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "UNSW Sydney ( Kensington campus), Sydney, Australia",
+    "start_date": "2026-01-28",
+    "end_date": "2026-01-30",
+    "legacy_talk_number": 127,
+    "legacy_venue_text": "KOZWaves 2026, UNSW Sydney ( Kensington campus), Sydney, Australia",
+    "legacy_date_text": "2026年1月28–30日"
+  },
+  {
+    "id": "peter2026kozwave",
+    "title": "Acoustic lattice resonances and generalised Rayleigh–Bloch waves",
+    "authors": [
+      "Malte A. Peter",
+      "Luke G. Bennetts",
+      "Gregory J. Chaplain",
+      "Stuart C. Hawkins",
+      "Kei Matsushima",
+      "Timothy A. Starkey"
+    ],
+    "year": 2026,
+    "month": 1,
+    "type": "inproceedings",
+    "venue": "KOZWaves 2026",
+    "url": "https://kozwaves2026.org/",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Malte A. Peter"
+    ],
+    "location": "UNSW Sydney ( Kensington campus), Sydney, Australia",
+    "start_date": "2026-01-28",
+    "end_date": "2026-01-30",
+    "legacy_talk_number": 128,
+    "legacy_venue_text": "KOZWaves 2026, UNSW Sydney ( Kensington campus), Sydney, Australia",
+    "legacy_date_text": "2026年1月28–30日"
+  },
+  {
+    "id": "matsushima2026RIMS",
+    "title": "Inverse design in wave physics: metamaterials and invisibility cloaking",
+    "authors": [
+      "Kei Matsushima"
+    ],
+    "year": 2026,
+    "month": 1,
+    "type": "inproceedings",
+    "venue": "Inverse problems for partial differential equations and related areas",
+    "url": "https://sites.google.com/view/rimsinverseproblem2026/",
+    "tags": [
+      "EN",
+      "invited"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "RIMS-Research Institute for Mathematical Sciences, Kyoto, Japan",
+    "start_date": "2026-01-14",
+    "end_date": "2026-01-16",
+    "legacy_talk_number": 129,
+    "legacy_venue_text": "Inverse problems for partial differential equations and related areas, RIMS-Research Institute for Mathematical Sciences, Kyoto, Japan",
+    "legacy_date_text": "2026年1月14–16日"
+  },
+  {
+    "id": "matsushima2026JSIAM",
+    "title": "Woodのアノマリと擬周期Green関数の周波数不連続性に関する考察",
+    "authors": [
+      "松島 慶",
+      "飯盛 浩司"
+    ],
+    "year": 2026,
+    "month": 3,
+    "type": "conference",
+    "venue": "日本応用数理学会 第22回研究部会連合発表会",
+    "tags": [
+      "JP"
+    ],
+    "url": "https://jsiam.org/jsiam_archive/past_presentations/union2026",
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "東京大学本郷キャンパス",
+    "start_date": "2026-03-09",
+    "end_date": "2026-03-11",
+    "legacy_talk_number": 130,
+    "legacy_venue_text": "日本応用数理学会 第22回研究部会連合発表会, 東京大学本郷キャンパス",
+    "legacy_date_text": "2026年3月9–11日"
+  },
+  {
+    "id": "matsushima2026nctam",
+    "title": "有限階作用素による境界積分方程式の安定化について",
+    "authors": [
+      "松島 慶"
+    ],
+    "year": 2026,
+    "month": 5,
+    "type": "conference",
+    "venue": "第68回理論応⽤⼒学講演会",
+    "tags": [
+      "JP"
+    ],
+    "url": "https://pub.confit.atlas.jp/ja/event/jsceam2026",
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "東京大学柏キャンパス",
+    "start_date": "2026-05-16",
+    "end_date": "2026-05-17",
+    "legacy_talk_number": 133,
+    "legacy_venue_text": "第68回理論応用力学講演会, 東京大学柏キャンパス",
+    "legacy_date_text": "2026年5月16–17日"
+  },
+  {
+    "id": "matsushima2026jsces",
+    "title": "Helmholtz方程式の基本解と境界積分方程式の低周波破綻に関する考察",
+    "authors": [
+      "松島 慶"
+    ],
+    "year": 2026,
+    "month": 6,
+    "type": "conference",
+    "venue": "第31回計算工学講演会",
+    "tags": [
+      "JP"
+    ],
+    "url": "https://www.jsces.org/koenkai/31/",
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "ウインクあいち",
+    "start_date": "2026-06-03",
+    "end_date": "2026-06-05",
+    "legacy_talk_number": 135,
+    "legacy_venue_text": "第31回計算工学講演会, ウインクあいち",
+    "legacy_date_text": "2026年6月3–5日"
+  },
+  {
+    "id": "matsushima2026WCCM",
+    "title": "A verified Nyström method for boundary integral equations in two dimensions",
+    "authors": [
+      "Kei Matsushima"
+    ],
+    "year": 2026,
+    "month": 7,
+    "type": "inproceedings",
+    "venue": "17th World Congress on Computational Mechanics & 10th European Congress on Computational Methods in Applied Sciences and Engineering (WCCM-ECCOMAS 2026)",
+    "url": "https://wccm-eccomas2026.org/",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "ICM International Congress Center Messe München, Munich, Germany",
+    "start_date": "2026-07-19",
+    "end_date": "2026-07-24",
+    "legacy_talk_number": 137,
+    "legacy_venue_text": "17th World Congress on Computational Mechanics & 10th European Congress on Computational Methods in Applied Sciences and Engineering (WCCM-ECCOMAS 2026), ICM International Congress Center Messe München, Munich, Germany",
+    "legacy_date_text": "2026年7月19–24日"
+  },
+  {
+    "id": "deguchi2026comp",
+    "title": "Topology optimization of isotropic viscoelastic microstructures based on periodic homogenization",
+    "authors": [
+      "Hiroaki Deguchi",
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2026,
+    "month": 8,
+    "type": "article",
+    "venue": "Composite Structures",
+    "tags": [
+      "EN"
+    ],
+    "doi": "10.1016/j.compstruct.2026.120670"
+  },
+  {
+    "id": "matsushima2026waves",
+    "title": "Exceptional points and defective resonances in a sound-soft scattering problem",
+    "authors": [
+      "Kei Matsushima"
+    ],
+    "year": 2026,
+    "month": 6,
+    "type": "inproceedings",
+    "venue": "The 17th International Conference on Mathematical and Numerical Aspects of Wave Propagation (WAVES 2026)",
+    "url": "https://www.waves2026.org/",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "John Molson School of Business, Concordia University, Montreal, Canada",
+    "start_date": "2026-06-22",
+    "end_date": "2026-06-26",
+    "legacy_talk_number": 136,
+    "legacy_venue_text": "The 17th International Conference on Mathematical and Numerical Aspects of Wave Propagation (WAVES 2026), John Molson School of Business, Concordia University, Montreal, Canada",
+    "legacy_date_text": "2026年6月22–26日"
+  },
+  {
+    "id": "matsushima2026EASIAM",
+    "title": "Optimal design of two-material thermal conductors with thermal radiation",
+    "authors": [
+      "Kosuke Kita",
+      "Kei Matsushima",
+      "Tomoyuki Oka"
+    ],
+    "year": 2026,
+    "month": 8,
+    "type": "inproceedings",
+    "venue": "The 19th EASIAM Annual Meeting (EASIAM 2026)",
+    "url": "https://easiam26.github.io/",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "Oriental Hotel, Jeju Island, Korea",
+    "start_date": "2026-08-23",
+    "end_date": "2026-08-27",
+    "legacy_talk_number": 140,
+    "legacy_venue_text": "The 19th EASIAM Annual Meeting (EASIAM 2026), Oriental Hotel, Jeju Island, Korea",
+    "legacy_date_text": "2026年8月23–27日"
+  },
+  {
+    "id": "matsushima2026acusticum",
+    "title": "Tracking Rayleigh-Bloch waves in periodic arrays of penetrable scatterers",
+    "authors": [
+      "Kei Matsushima",
+      "Luke G. Bennetts",
+      "Malte A. Peter"
+    ],
+    "year": 2026,
+    "month": 9,
+    "type": "inproceedings",
+    "venue": "Forum Acusticum 2026",
+    "url": "https://forum-acusticum.org/fa2026/",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "Messecongress Graz, Graz, Austria",
+    "start_date": "2026-09-08",
+    "end_date": "2026-09-12",
+    "legacy_talk_number": 143,
+    "legacy_venue_text": "Forum Acusticum 2026, Messecongress Graz, Graz, Austria",
+    "legacy_date_text": "2026年9月8–12日"
+  },
+  {
+    "id": "matsushima2026ini",
+    "title": "Green's function-based numerical methods for diffraction gratings and Rayleigh-Bloch waves",
+    "authors": [
+      "Kei Matsushima"
+    ],
+    "year": 2026,
+    "month": 8,
+    "type": "inproceedings",
+    "venue": "Isaac Newton Institute for Mathematical Sciences: Multiple Wave Scattering in Locally Resonant Materials with Degrees of (Dis)Order",
+    "url": "https://www.newton.ac.uk/event/mwsw06/",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "Cambridge, UK",
+    "start_date": "2026-08-03",
+    "end_date": "2026-08-14",
+    "legacy_talk_number": 138,
+    "legacy_venue_text": "Isaac Newton Institute for Mathematical Sciences: Multiple Wave Scattering in Locally Resonant Materials with Degrees of (Dis)Order, Cambridge, UK",
+    "legacy_date_text": "2026年8月3–14日"
+  },
+  {
+    "id": "matsushima2026copula",
+    "title": "形状を表現するデータと最適設計について",
+    "authors": [
+      "松島 慶"
+    ],
+    "year": 2026,
+    "month": 5,
+    "type": "conference",
+    "venue": "統計数理研究所 2026共同研究集会「コピュラ理論の新展開」第一回",
+    "url": "https://sites.google.com/view/statistician-takeshi/%E3%82%B3%E3%83%94%E3%83%A5%E3%83%A9%E7%A0%94%E7%A9%B6%E9%9B%86%E4%BC%9A",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "統計数理研究所",
+    "start_date": "2026-05-13",
+    "end_date": "2026-05-14",
+    "legacy_talk_number": 132,
+    "legacy_venue_text": "統計数理研究所 2026共同研究集会「コピュラ理論の新展開」第一回, 統計数理研究所",
+    "legacy_date_text": "2026年5月13–14日"
+  },
+  {
+    "id": "itoh2026dsd",
+    "title": "境界積分方程式に基づく2次元音響メタマテリアルの形状最適化における正則化",
+    "authors": [
+      "伊藤 博望",
+      "松島 慶",
+      "山田 崇恭"
+    ],
+    "year": 2026,
+    "month": 8,
+    "type": "conference",
+    "venue": "日本機械学会 第36回設計工学・システム部門講演会",
+    "url": "https://pub.confit.atlas.jp/ja/event/dsdconf26",
+    "tags": [
+      "JP",
+      "JSME"
+    ],
+    "presenters": [
+      "伊藤博望"
+    ],
+    "location": "豊田工業大学",
+    "start_date": "2026-08-26",
+    "end_date": "2026-08-28",
+    "legacy_talk_number": 141,
+    "legacy_venue_text": "日本機械学会 第36回設計工学・システム部門講演会, 豊田工業大学",
+    "legacy_date_text": "2026年8月26–28日"
+  },
+  {
+    "id": "deguchi2026dsd",
+    "title": "複素均質化法に基づく等方粘弾性率境界の数値的検証",
+    "authors": [
+      "出口 広哲",
+      "松島 慶",
+      "山田 崇恭"
+    ],
+    "year": 2026,
+    "month": 8,
+    "type": "conference",
+    "venue": "日本機械学会 第36回設計工学・システム部門講演会",
+    "url": "https://pub.confit.atlas.jp/ja/event/dsdconf26",
+    "tags": [
+      "JP",
+      "JSME"
+    ],
+    "presenters": [
+      "出口広哲"
+    ],
+    "location": "豊田工業大学",
+    "start_date": "2026-08-26",
+    "end_date": "2026-08-28",
+    "legacy_talk_number": 142,
+    "legacy_venue_text": "日本機械学会 第36回設計工学・システム部門講演会, 豊田工業大学",
+    "legacy_date_text": "2026年8月26–28日"
+  },
+  {
+    "id": "itoh2026cmd",
+    "title": "非線形固有振動数の局所分布の見積もりに関する数値計算法の考察",
+    "authors": [
+      "伊藤 博望",
+      "松島 慶",
+      "山田 崇恭"
+    ],
+    "year": 2026,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本機械学会 第39回計算力学講演会 (CMD2026)",
+    "url": "https://www.jsme.or.jp/conference/cmdconf26/",
+    "tags": [
+      "JP",
+      "JSME"
+    ],
+    "presenters": [
+      "伊藤博望"
+    ],
+    "location": "大阪工業大学 梅田キャンパス",
+    "start_date": "2026-09-14",
+    "end_date": "2026-09-16",
+    "legacy_talk_number": 144,
+    "legacy_venue_text": "日本機械学会 第39回計算力学講演会（CMD2026）, 大阪工業大学 梅田キャンパス",
+    "legacy_date_text": "2026年9月14–16日"
+  },
+  {
+    "id": "matsushima2026annual",
+    "title": "積分方程式に対するNyström法のパラメータ安定性に関する考察",
+    "authors": [
+      "松島 慶"
+    ],
+    "year": 2026,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本応用数理学会 2026年度年会",
+    "url": "https://jsiam.org/jsiam_archive/past_meetings/annual2026/",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "福岡国際会議場",
+    "start_date": "2026-09-15",
+    "end_date": "2026-09-17",
+    "legacy_talk_number": 145,
+    "legacy_venue_text": "日本応用数理学会2026年度年会, 福岡国際会議場",
+    "legacy_date_text": "2026年9月15–17日"
+  },
+  {
+    "id": "matsumoto2026annual",
+    "title": "散乱問題におけるフレドホルム第2種のバートン・ミラー型境界積分方程式",
+    "authors": [
+      "松本 安弘",
+      "松島 慶"
+    ],
+    "year": 2026,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本応用数理学会 2026年度年会",
+    "url": "https://jsiam.org/jsiam_archive/past_meetings/annual2026/",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松本安弘"
+    ],
+    "location": "福岡国際会議場",
+    "start_date": "2026-09-15",
+    "end_date": "2026-09-17",
+    "legacy_talk_number": 146,
+    "legacy_venue_text": "日本応用数理学会2026年度年会, 福岡国際会議場",
+    "legacy_date_text": "2026年9月15–17日"
+  },
+  {
+    "id": "matsushima2026ksmejsme",
+    "title": "Designing non-Hermitian systems with structural optimization",
+    "authors": [
+      "Kei Matsushima"
+    ],
+    "year": 2026,
+    "month": 8,
+    "type": "inproceedings",
+    "venue": "10th KSME-JSME Joint Symposium on Computational Mechanics and CAE 2026",
+    "url": "https://sites.google.com/view/ksme-jsme-joint-symposium/",
+    "tags": [
+      "EN",
+      "invited"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "Nagaoka University of Technology, Niigata, Japan",
+    "start_date": "2026-08-20",
+    "end_date": "2026-08-22",
+    "legacy_talk_number": 139,
+    "legacy_venue_text": "10th KSME-JSME Joint Symposium on Computational Mechanics and CAE 2026, Nagaoka University of Technology, Niigata, Japan",
+    "legacy_date_text": "2026年8月20–22日",
+    "invited": true
+  },
+  {
+    "id": "itoh2026acsmo",
+    "title": "On the Computation of Functional Gradient Using Hilbertian Regularization with Boundary Integral Formulation for the Two-Dimensional Helmholtz Equation",
+    "authors": [
+      "Hiromochi Itoh",
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2026,
+    "month": 5,
+    "type": "inproceedings",
+    "venue": "Asian Congress of Structural and Multidisciplinary Optimization 2026 (ACSMO 2026)",
+    "url": "https://acsmo2026.org/",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Takayuki Yamada"
+    ],
+    "location": "BEXCO, Busan, Korea",
+    "start_date": "2026-05-17",
+    "end_date": "2026-05-21",
+    "legacy_talk_number": 134,
+    "legacy_venue_text": "Asian Congress of Structural and Multidisciplinary Optimization 2026 (ACSMO 2026), BEXCO, Busan, Korea",
+    "legacy_date_text": "2026年5月17–21日"
+  },
+  {
+    "id": "oka2026JSIAM",
+    "title": "非定常性を伴う最適設計問題に於ける直接緩和性について",
+    "authors": [
+      "岡 大将",
+      "松島 慶"
+    ],
+    "year": 2026,
+    "month": 3,
+    "type": "conference",
+    "venue": "日本応用数理学会 第22回研究部会連合発表会",
+    "url": "https://jsiam.org/jsiam_archive/past_presentations/union2026",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "岡大将"
+    ],
+    "location": "東京大学本郷キャンパス",
+    "start_date": "2026-03-09",
+    "end_date": "2026-03-11",
+    "legacy_talk_number": 131,
+    "legacy_venue_text": "日本応用数理学会 第22回研究部会連合発表会, 東京大学本郷キャンパス",
+    "legacy_date_text": "2026年3月9–11日"
+  },
+  {
+    "id": "legacy-talk-0120",
+    "title": "3次元音響場の共鳴の解析と高感度音響センサーの設計",
+    "authors": [
+      "伊藤博望",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2025,
+    "month": 8,
+    "type": "conference",
+    "venue": "日本機械学会 M&M・CMD若手シンポジウム2025",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "伊藤博望"
+    ],
+    "location": "KKRホテル名古屋",
+    "start_date": "2025-08-27",
+    "end_date": "2025-08-29",
+    "legacy_talk_number": 120,
+    "legacy_venue_text": "日本機械学会 M&M・CMD若手シンポジウム2025, KKRホテル名古屋",
+    "legacy_date_text": "2025年8月27–29日"
+  },
+  {
+    "id": "legacy-talk-0118",
+    "title": "粘弾性複合材料に対する均質化法を用いた吸音材設計のための吸音特性評価",
+    "authors": [
+      "出口広哲",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2025,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本機械学会 第35回設計工学・システム部門講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "出口広哲"
+    ],
+    "location": "明治大学 駿河台キャンパス",
+    "start_date": "2025-09-03",
+    "end_date": "2025-09-05",
+    "legacy_talk_number": 118,
+    "legacy_venue_text": "日本機械学会 第35回設計工学・システム部門講演会, 明治大学 駿河台キャンパス",
+    "legacy_date_text": "2025年9月3–5日"
+  },
+  {
+    "id": "legacy-talk-0116",
+    "title": "均質化法に基づく粘弾性複合材料のトポロジー最適化のための感度解析",
+    "authors": [
+      "出口広哲",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2025,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本機械学会 第37回計算力学講演会（CMD2025）",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "出口広哲"
+    ],
+    "location": "信州大学工学部",
+    "start_date": "2025-09-24",
+    "end_date": "2025-09-26",
+    "legacy_talk_number": 116,
+    "legacy_venue_text": "日本機械学会 第37回計算力学講演会（CMD2025）, 信州大学工学部",
+    "legacy_date_text": "2025年9月24–26日"
+  },
+  {
+    "id": "legacy-talk-0115",
+    "title": "Topology optimization of viscoelastic composites using complex-valued homogenization",
+    "authors": [
+      "Hiroaki Deguchi",
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2025,
+    "month": 9,
+    "type": "inproceedings",
+    "venue": "16th Conference on Evolutionary and Deterministic Methods for Design",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Hiroaki Deguchi"
+    ],
+    "location": "Optimization and Control with Applications, LUT University, Lahti, Finland",
+    "start_date": "2025-09-16",
+    "end_date": "2025-09-18",
+    "legacy_talk_number": 115,
+    "legacy_venue_text": "16th Conference on Evolutionary and Deterministic Methods for Design, Optimization and Control with Applications, LUT University, Lahti, Finland",
+    "legacy_date_text": "2025年9月16–18日"
+  },
+  {
+    "id": "legacy-talk-0114",
+    "title": "Omnidirectional acoustic cloaking for arbitrary materials and shapes",
+    "authors": [
+      "Akihiro Yoshiki",
+      "Kei Matsushima",
+      "Hiroshi Isakari"
+    ],
+    "year": 2025,
+    "month": 5,
+    "type": "inproceedings",
+    "venue": "The 16th World Congress of Structural and Multidisciplinary Optimization (WCSMO-16)",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Hiroshi Isakari"
+    ],
+    "location": "Kobe Convention center, Kobe",
+    "start_date": "2025-05-18",
+    "end_date": "2025-05-23",
+    "legacy_talk_number": 114,
+    "legacy_venue_text": "The 16th World Congress of Structural and Multidisciplinary Optimization (WCSMO-16), Kobe Convention center, Kobe",
+    "legacy_date_text": "2025年5月18–23日"
+  },
+  {
+    "id": "legacy-talk-0113",
+    "title": "Size optimization of multiple spheres for the realization of exceptional points in acoustic field",
+    "authors": [
+      "Hiromochi Itoh",
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2025,
+    "month": 5,
+    "type": "inproceedings",
+    "venue": "The 16th World Congress of Structural and Multidisciplinary Optimization (WCSMO-16)",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Hiromochi Itoh"
+    ],
+    "location": "Kobe Convention center, Kobe",
+    "start_date": "2025-05-18",
+    "end_date": "2025-05-23",
+    "legacy_talk_number": 113,
+    "legacy_venue_text": "The 16th World Congress of Structural and Multidisciplinary Optimization (WCSMO-16), Kobe Convention center, Kobe",
+    "legacy_date_text": "2025年5月18–23日"
+  },
+  {
+    "id": "legacy-talk-0112",
+    "title": "Controlling the acoustic impedance of viscoelastic materials using topology optimization",
+    "authors": [
+      "Hiroaki Deguchi",
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2025,
+    "month": 5,
+    "type": "inproceedings",
+    "venue": "The 16th World Congress of Structural and Multidisciplinary Optimization (WCSMO-16)",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Hiroaki Deguchi"
+    ],
+    "location": "Kobe Convention center, Kobe",
+    "start_date": "2025-05-18",
+    "end_date": "2025-05-23",
+    "legacy_talk_number": 112,
+    "legacy_venue_text": "The 16th World Congress of Structural and Multidisciplinary Optimization (WCSMO-16), Kobe Convention center, Kobe",
+    "legacy_date_text": "2025年5月18–23日"
+  },
+  {
+    "id": "legacy-talk-0111",
+    "title": "A regularized shape sensitivity of knot energy with application to the unknotting problem",
+    "authors": [
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2025,
+    "month": 5,
+    "type": "inproceedings",
+    "venue": "The 16th World Congress of Structural and Multidisciplinary Optimization (WCSMO-16)",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "Kobe Convention center, Kobe",
+    "start_date": "2025-05-18",
+    "end_date": "2025-05-23",
+    "legacy_talk_number": 111,
+    "legacy_venue_text": "The 16th World Congress of Structural and Multidisciplinary Optimization (WCSMO-16), Kobe Convention center, Kobe",
+    "legacy_date_text": "2025年5月18–23日"
+  },
+  {
+    "id": "legacy-talk-0110",
+    "title": "Acoustic lattice resonances and generalised Rayleigh–Bloch waves",
+    "authors": [
+      "M. A. Peter",
+      "L. G. Bennetts",
+      "G. J. Chaplain",
+      "S. C. Hawkins",
+      "K. Matsushima",
+      "T. A. Starkey"
+    ],
+    "year": 2025,
+    "month": 7,
+    "type": "inproceedings",
+    "venue": "META 2025 (15th Conference on Metamaterials",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "M. A. Peter"
+    ],
+    "location": "Photonic Crystals and Plasmonics), Malaga, Spain",
+    "start_date": "2025-07-22",
+    "end_date": "2025-07-25",
+    "legacy_talk_number": 110,
+    "legacy_venue_text": "META 2025 (15th Conference on Metamaterials, Photonic Crystals and Plasmonics), Malaga, Spain",
+    "legacy_date_text": "2025年7月22–25日"
+  },
+  {
+    "id": "legacy-talk-0109",
+    "title": "transmission 問題における変形されたBurton-Miller型境界積分方程式の見かけの固有値分布",
+    "authors": [
+      "松本安弘",
+      "松島慶"
+    ],
+    "year": 2025,
+    "month": 6,
+    "type": "conference",
+    "venue": "第30回計算工学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松本安弘"
+    ],
+    "location": "ソニックシティ",
+    "start_date": "2025-06-04",
+    "end_date": "2025-06-06",
+    "legacy_talk_number": 109,
+    "legacy_venue_text": "第30回計算工学講演会, ソニックシティ",
+    "legacy_date_text": "2025年6月4–6日"
+  },
+  {
+    "id": "legacy-talk-0108",
+    "title": "Helmholtz方程式の外部Neumann問題に関連する散乱共鳴の重複度の数値計算",
+    "authors": [
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2025,
+    "month": 6,
+    "type": "conference",
+    "venue": "第30回計算工学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "ソニックシティ",
+    "start_date": "2025-06-04",
+    "end_date": "2025-06-06",
+    "legacy_talk_number": 108,
+    "legacy_venue_text": "第30回計算工学講演会, ソニックシティ",
+    "legacy_date_text": "2025年6月4–6日"
+  },
+  {
+    "id": "legacy-talk-0107",
+    "title": "透過性円形介在物による2次元波動散乱問題における直接-間接混合型Burton-Miller境界積分方程式の解の一意性",
+    "authors": [
+      "松本安弘",
+      "松島慶"
+    ],
+    "year": 2025,
+    "month": 3,
+    "type": "conference",
+    "venue": "日本応用数理学会第21回研究部会連合発表会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松本安弘"
+    ],
+    "location": "岡山大学津島キャンパス",
+    "start_date": "2025-03-05",
+    "end_date": "2025-03-07",
+    "legacy_talk_number": 107,
+    "legacy_venue_text": "日本応用数理学会第21回研究部会連合発表会, 岡山大学津島キャンパス",
+    "legacy_date_text": "2025年3月5–7日"
+  },
+  {
+    "id": "legacy-talk-0106",
+    "title": "Nyström法による境界積分方程式の離散化に基づくHelmholtz方程式の解の周波数微分の数値計算",
+    "authors": [
+      "松島慶",
+      "山田崇恭",
+      "飯盛浩司"
+    ],
+    "year": 2024,
+    "month": 12,
+    "type": "conference",
+    "venue": "計算数理工学シンポジウム2024",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "長岡技術科学大学",
+    "start_date": "2024-12-13",
+    "end_date": "2024-12-14",
+    "legacy_talk_number": 106,
+    "legacy_venue_text": "計算数理工学シンポジウム2024, 長岡技術科学大学",
+    "legacy_date_text": "2024年12月13–14日"
+  },
+  {
+    "id": "legacy-talk-0105",
+    "title": "境界積分方程式に基づく数値計算による音波の散乱と共鳴の解析",
+    "authors": [
+      "松島慶"
+    ],
+    "year": 2024,
+    "month": 12,
+    "type": "conference",
+    "venue": "第4回 数理解析若手交流会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "信州大学 長野 (工学) キャンパス",
+    "start_date": "2024-12-20",
+    "end_date": "2024-12-22",
+    "legacy_talk_number": 105,
+    "legacy_venue_text": "第4回 数理解析若手交流会, 信州大学 長野 (工学) キャンパス",
+    "legacy_date_text": "2024年12月20–22日"
+  },
+  {
+    "id": "legacy-talk-0104",
+    "title": "Identification of non-Hermitian degeneracy in acoustic scattering systems using boundary integral equations",
+    "authors": [
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2024,
+    "month": 12,
+    "type": "inproceedings",
+    "venue": "Symposium of the International Association for Boundary Element Methods (IABEM 2024)",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "The Hong Kong University of Science & Technology, Hong Kong",
+    "start_date": "2024-12-04",
+    "end_date": "2024-12-06",
+    "legacy_talk_number": 104,
+    "legacy_venue_text": "Symposium of the International Association for Boundary Element Methods (IABEM 2024), The Hong Kong University of Science & Technology, Hong Kong",
+    "legacy_date_text": "2024年12月4–6日"
+  },
+  {
+    "id": "legacy-talk-0103",
+    "title": "ブラソフ--ポアソンシステムに対する構造保存型数値解法の適用",
+    "authors": [
+      "松島慶"
+    ],
+    "year": 2024,
+    "month": 10,
+    "type": "conference",
+    "venue": "希薄プラズマに現れる異方性拡散問題に対する構造保存型数値解法 (九州大学マス・フォア・インダストリ研究所 共同利用・共同研究)",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "九州大学",
+    "start_date": "2024-10-29",
+    "end_date": "2024-10-31",
+    "legacy_talk_number": 103,
+    "legacy_venue_text": "希薄プラズマに現れる異方性拡散問題に対する構造保存型数値解法 (九州大学マス・フォア・インダストリ研究所 共同利用・共同研究), 九州大学",
+    "legacy_date_text": "2024年10月29–31日"
+  },
+  {
+    "id": "legacy-talk-0102",
+    "title": "結び目のエネルギーの最小化手法とその数値安定性",
+    "authors": [
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2024,
+    "month": 10,
+    "type": "conference",
+    "venue": "日本機械学会 第15回最適化シンポジウム（OPTIS2024）",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "北海道大学",
+    "start_date": "2024-10-26",
+    "end_date": "2024-10-27",
+    "legacy_talk_number": 102,
+    "legacy_venue_text": "日本機械学会 第15回最適化シンポジウム（OPTIS2024）, 北海道大学",
+    "legacy_date_text": "2024年10月26–27日"
+  },
+  {
+    "id": "legacy-talk-0101",
+    "title": "境界積分方程式法に関するNyström法のGPUを用いた高速化",
+    "authors": [
+      "伊藤博望",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2024,
+    "month": 10,
+    "type": "conference",
+    "venue": "日本機械学会 第37回計算力学講演会（CMD2024）",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "伊藤博望"
+    ],
+    "location": "トークネットホール仙台",
+    "start_date": "2024-10-18",
+    "end_date": "2024-10-20",
+    "legacy_talk_number": 101,
+    "legacy_venue_text": "日本機械学会 第37回計算力学講演会（CMD2024）, トークネットホール仙台",
+    "legacy_date_text": "2024年10月18–20日"
+  },
+  {
+    "id": "legacy-talk-0100",
+    "title": "球状弾性体の変位場のスカラーポテンシャルへの分解とその直交性",
+    "authors": [
+      "出口広哲",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2024,
+    "month": 10,
+    "type": "conference",
+    "venue": "日本機械学会 第37回計算力学講演会（CMD2024）",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "出口広哲"
+    ],
+    "location": "トークネットホール仙台",
+    "start_date": "2024-10-18",
+    "end_date": "2024-10-20",
+    "legacy_talk_number": 100,
+    "legacy_venue_text": "日本機械学会 第37回計算力学講演会（CMD2024）, トークネットホール仙台",
+    "legacy_date_text": "2024年10月18–20日"
+  },
+  {
+    "id": "legacy-talk-0099",
+    "title": "複素係数を有するHelmholtz方程式の数値解法に関する考察",
+    "authors": [
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2024,
+    "month": 10,
+    "type": "conference",
+    "venue": "日本機械学会 第37回計算力学講演会（CMD2024）",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "トークネットホール仙台",
+    "start_date": "2024-10-18",
+    "end_date": "2024-10-20",
+    "legacy_talk_number": 99,
+    "legacy_venue_text": "日本機械学会 第37回計算力学講演会（CMD2024）, トークネットホール仙台",
+    "legacy_date_text": "2024年10月18–20日"
+  },
+  {
+    "id": "legacy-talk-0098",
+    "title": "Wave tailoring in non-Hermitian systems with structural optimization",
+    "authors": [
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2024,
+    "month": 9,
+    "type": "inproceedings",
+    "venue": "IWACOM-IV",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "Kitakyushu International Conference Center",
+    "start_date": "2024-09-18",
+    "end_date": "2024-09-20",
+    "legacy_talk_number": 98,
+    "legacy_venue_text": "IWACOM-IV, Kitakyushu International Conference Center",
+    "legacy_date_text": "2024年9月18–20日"
+  },
+  {
+    "id": "legacy-talk-0097",
+    "title": "結び目のエネルギーとその形状導関数の数値計算について",
+    "authors": [
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2024,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本応用数理学会2024年度年会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "京都大学",
+    "start_date": "2024-09-14",
+    "end_date": "2024-09-16",
+    "legacy_talk_number": 97,
+    "legacy_venue_text": "日本応用数理学会2024年度年会, 京都大学",
+    "legacy_date_text": "2024年9月14–16日"
+  },
+  {
+    "id": "legacy-talk-0096",
+    "title": "境界積分方程式に対する随伴変数法と形状導関数の正則性",
+    "authors": [
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2024,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本応用数理学会2024年度年会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "京都大学",
+    "start_date": "2024-09-14",
+    "end_date": "2024-09-16",
+    "legacy_talk_number": 96,
+    "legacy_venue_text": "日本応用数理学会2024年度年会, 京都大学",
+    "legacy_date_text": "2024年9月14–16日"
+  },
+  {
+    "id": "legacy-talk-0095",
+    "title": "東京大学工学部機械工学科スターリングエンジン演習の実践報告",
+    "authors": [
+      "山崎 由大",
+      "長藤 圭介",
+      "千足 昇平",
+      "村上 存",
+      "柳澤 秀吉",
+      "福井 類",
+      "木崎 通",
+      "伊藤 佑介",
+      "伊藤 太久磨",
+      "大塚 慶吾",
+      "杉浦 広峻",
+      "佐藤 悠治",
+      "趙 漠居",
+      "浅野 悠紀",
+      "李 敏赫",
+      "松島 慶",
+      "内山 瑛美子",
+      "李 禮林",
+      "王 智宇",
+      "藤森 伸壮"
+    ],
+    "year": 2024,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本機械学会 2024年度年次大会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "山崎 由大"
+    ],
+    "location": "愛媛大学（城北キャンパス）",
+    "start_date": "2024-09-08",
+    "end_date": "2024-09-11",
+    "legacy_talk_number": 95,
+    "legacy_venue_text": "日本機械学会 2024年度年次大会, 愛媛大学（城北キャンパス）",
+    "legacy_date_text": "2024年9月8–11日"
+  },
+  {
+    "id": "legacy-talk-0094",
+    "title": "時間変調するバネ・マス系における波動伝搬の非相反性",
+    "authors": [
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2024,
+    "month": 9,
+    "type": "conference",
+    "venue": "第67回理論応用力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "神奈川大学みなとみらいキャンパス",
+    "start_date": "2024-09-03",
+    "end_date": "2024-09-06",
+    "legacy_talk_number": 94,
+    "legacy_venue_text": "第67回理論応用力学講演会, 神奈川大学みなとみらいキャンパス",
+    "legacy_date_text": "2024年9月3–6日"
+  },
+  {
+    "id": "legacy-talk-0093",
+    "title": "A numerical study on defective scattering resonances in acoustics",
+    "authors": [
+      "松島慶"
+    ],
+    "year": 2024,
+    "month": 9,
+    "type": "conference",
+    "venue": "形状設計数学シンポジウム",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "東京大学",
+    "start_date": "2024-09-03",
+    "end_date": "2024-09-04",
+    "legacy_talk_number": 93,
+    "legacy_venue_text": "形状設計数学シンポジウム, 東京大学",
+    "legacy_date_text": "2024年9月3–4日"
+  },
+  {
+    "id": "legacy-talk-0092",
+    "title": "特性曲線法によるVlasov–Poisson方程式の数値解法",
+    "authors": [
+      "松島慶"
+    ],
+    "year": 2024,
+    "month": 6,
+    "type": "conference",
+    "venue": "ブラソフ方程式とマックスウェル方程式、プラズマの数理 II",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "東北大学",
+    "start_date": "2024-06-28",
+    "end_date": "2024-06-29",
+    "legacy_talk_number": 92,
+    "legacy_venue_text": "ブラソフ方程式とマックスウェル方程式、プラズマの数理 II, 東北大学",
+    "legacy_date_text": "2024年6月28–29日"
+  },
+  {
+    "id": "legacy-talk-0091",
+    "title": "2次元Helmholtz方程式の擬周期Green関数の特異性に関する考察",
+    "authors": [
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2024,
+    "month": 6,
+    "type": "conference",
+    "venue": "第29回計算工学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "神戸国際会議場",
+    "start_date": "2024-06-10",
+    "end_date": "2024-06-12",
+    "legacy_talk_number": 91,
+    "legacy_venue_text": "第29回計算工学講演会, 神戸国際会議場",
+    "legacy_date_text": "2024年6月10–12日"
+  },
+  {
+    "id": "legacy-talk-0090",
+    "title": "Rayleigh-Bloch waves supported by sound-hard non-circular obstacles above the cut-off",
+    "authors": [
+      "Kei Matsushima",
+      "Luke Bennetts",
+      "Malte Peter"
+    ],
+    "year": 2024,
+    "month": 6,
+    "type": "inproceedings",
+    "venue": "The 16th International Conference on Mathematical and Numerical Aspects of Wave Propagation (WAVES 2024)",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "Harnack house, Berlin, Germany",
+    "start_date": "2024-06-30",
+    "end_date": "2024-07-05",
+    "legacy_talk_number": 90,
+    "legacy_venue_text": "The 16th International Conference on Mathematical and Numerical Aspects of Wave Propagation (WAVES 2024), Harnack house, Berlin, Germany",
+    "legacy_date_text": "2024年6月30–7月5日"
+  },
+  {
+    "id": "legacy-talk-0089",
+    "title": "Identification of exceptional points in a spherical open elastic system based on a recursive algorithm",
+    "authors": [
+      "Hiroaki Deguchi",
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2024,
+    "month": 6,
+    "type": "inproceedings",
+    "venue": "The 16th International Conference on Mathematical and Numerical Aspects of Wave Propagation (WAVES 2024)",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Hiroaki Deguchi"
+    ],
+    "location": "Harnack house, Berlin, Germany",
+    "start_date": "2024-06-30",
+    "end_date": "2024-07-05",
+    "legacy_talk_number": 89,
+    "legacy_venue_text": "The 16th International Conference on Mathematical and Numerical Aspects of Wave Propagation (WAVES 2024), Harnack house, Berlin, Germany",
+    "legacy_date_text": "2024年6月30–7月5日"
+  },
+  {
+    "id": "legacy-talk-0088",
+    "title": "Non-Hermitian degeneracy in two-dimensional open elastic systems with higher-order exceptional points",
+    "authors": [
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2024,
+    "month": 7,
+    "type": "inproceedings",
+    "venue": "The 16th World Congress on Computational Mechanics and 4th Pan American Congress on Computational Mechanics (WCCM-PANACM 2024)",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "Vancouver Convention Centre, Vancouver, Canada",
+    "start_date": "2024-07-21",
+    "end_date": "2024-07-26",
+    "legacy_talk_number": 88,
+    "legacy_venue_text": "The 16th World Congress on Computational Mechanics and 4th Pan American Congress on Computational Mechanics (WCCM-PANACM 2024), Vancouver Convention Centre, Vancouver, Canada",
+    "legacy_date_text": "2024年7月21–7月26日"
+  },
+  {
+    "id": "legacy-talk-0087",
+    "title": "A numerical method for shape optimization based on the Hilbertian regularization with boundary integral formulation",
+    "authors": [
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2024,
+    "month": 5,
+    "type": "inproceedings",
+    "venue": "The Asian Congress of Structural and Multidisciplinary Optimization 2024 (ACSMO 2024)",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "Zhengzhou, China",
+    "start_date": "2024-05-19",
+    "end_date": "2024-05-23",
+    "legacy_talk_number": 87,
+    "legacy_venue_text": "The Asian Congress of Structural and Multidisciplinary Optimization 2024 (ACSMO 2024), Zhengzhou, China",
+    "legacy_date_text": "2024年5月19–5月23日"
+  },
+  {
+    "id": "legacy-talk-0086",
+    "title": "On Rayleigh-Bloch waves swapping between physical and unphysical Riemann sheets",
+    "authors": [
+      "Kei Matsushima",
+      "Luke Bennetts",
+      "Malte Peter"
+    ],
+    "year": 2024,
+    "month": 1,
+    "type": "inproceedings",
+    "venue": "KOZWaves 2024",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "University of Otago, Dunedin, New Zealand",
+    "start_date": "2024-01-31",
+    "end_date": "2024-02-02",
+    "legacy_talk_number": 86,
+    "legacy_venue_text": "KOZWaves 2024, University of Otago, Dunedin, New Zealand",
+    "legacy_date_text": "2024年1月31–2月2日"
+  },
+  {
+    "id": "legacy-talk-0085",
+    "title": "境界積分方程式で記述される形状最適化問題における形状感度のHilbert正則化",
+    "authors": [
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2023,
+    "month": 11,
+    "type": "conference",
+    "venue": "計算数理工学シンポジウム2023",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "沖縄科学技術大学院大学（OIST）",
+    "start_date": "2023-11-24",
+    "end_date": "2023-11-25",
+    "legacy_talk_number": 85,
+    "legacy_venue_text": "計算数理工学シンポジウム2023, 沖縄科学技術大学院大学（OIST）",
+    "legacy_date_text": "2023年11月24–25日"
+  },
+  {
+    "id": "legacy-talk-0084",
+    "title": "最適設計における正則化法とFreeFEMによる数値計算について",
+    "authors": [
+      "松島慶"
+    ],
+    "year": 2023,
+    "month": 11,
+    "type": "conference",
+    "venue": "第44回 計算数理工学フォーラム",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "沖縄科学技術大学院大学（OIST）",
+    "start_date": "2023-11-24",
+    "end_date": "2023-11-24",
+    "legacy_talk_number": 84,
+    "legacy_venue_text": "第44回 計算数理工学フォーラム, 沖縄科学技術大学院大学（OIST）",
+    "legacy_date_text": "2023年11月24日"
+  },
+  {
+    "id": "legacy-talk-0083",
+    "title": "1次元開放系の例外点と時間域散乱問題に関する考察",
+    "authors": [
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2023,
+    "month": 10,
+    "type": "conference",
+    "venue": "日本機械学会 第36回計算力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "豊橋商工会議所",
+    "start_date": "2023-10-25",
+    "end_date": "2023-10-27",
+    "legacy_talk_number": 83,
+    "legacy_venue_text": "日本機械学会 第36回計算力学講演会, 豊橋商工会議所",
+    "legacy_date_text": "2023年10月25–27日"
+  },
+  {
+    "id": "legacy-talk-0082",
+    "title": "負の熱膨張率を示すメタマテリアルの最適化における感度解析について",
+    "authors": [
+      "赤松大地",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2023,
+    "month": 10,
+    "type": "conference",
+    "venue": "日本機械学会 第36回計算力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "赤松大地"
+    ],
+    "location": "豊橋商工会議所",
+    "start_date": "2023-10-25",
+    "end_date": "2023-10-27",
+    "legacy_talk_number": 82,
+    "legacy_venue_text": "日本機械学会 第36回計算力学講演会, 豊橋商工会議所",
+    "legacy_date_text": "2023年10月25–27日"
+  },
+  {
+    "id": "legacy-talk-0081",
+    "title": "境界要素法による、Sakurai-Sugiura法を用いた例外点の数値計算",
+    "authors": [
+      "加志村誓太",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2023,
+    "month": 10,
+    "type": "conference",
+    "venue": "日本機械学会 第36回計算力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "加志村誓太"
+    ],
+    "location": "豊橋商工会議所",
+    "start_date": "2023-10-25",
+    "end_date": "2023-10-27",
+    "legacy_talk_number": 81,
+    "legacy_venue_text": "日本機械学会 第36回計算力学講演会, 豊橋商工会議所",
+    "legacy_date_text": "2023年10月25–27日"
+  },
+  {
+    "id": "legacy-talk-0080",
+    "title": "球状弾性体の複素固有周波数についての考察",
+    "authors": [
+      "出口広哲",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2023,
+    "month": 10,
+    "type": "conference",
+    "venue": "日本機械学会 第36回計算力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "出口広哲"
+    ],
+    "location": "豊橋商工会議所",
+    "start_date": "2023-10-25",
+    "end_date": "2023-10-27",
+    "legacy_talk_number": 80,
+    "legacy_venue_text": "日本機械学会 第36回計算力学講演会, 豊橋商工会議所",
+    "legacy_date_text": "2023年10月25–27日"
+  },
+  {
+    "id": "legacy-talk-0079",
+    "title": "複雑な幾何形状を持つ光学系の設計感度解析",
+    "authors": [
+      "Chenda Qiang",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2023,
+    "month": 10,
+    "type": "conference",
+    "venue": "日本機械学会 第36回計算力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "Chenda Qiang"
+    ],
+    "location": "豊橋商工会議所",
+    "start_date": "2023-10-25",
+    "end_date": "2023-10-27",
+    "legacy_talk_number": 79,
+    "legacy_venue_text": "日本機械学会 第36回計算力学講演会, 豊橋商工会議所",
+    "legacy_date_text": "2023年10月25–27日"
+  },
+  {
+    "id": "legacy-talk-0078",
+    "title": "微細管構造の希薄気体流れに対する離散速度法を用いたトポロジー最適化",
+    "authors": [
+      "Kaiwen Guan",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2023,
+    "month": 10,
+    "type": "conference",
+    "venue": "日本機械学会 第36回計算力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "Kaiwen Guan"
+    ],
+    "location": "豊橋商工会議所",
+    "start_date": "2023-10-25",
+    "end_date": "2023-10-27",
+    "legacy_talk_number": 78,
+    "legacy_venue_text": "日本機械学会 第36回計算力学講演会, 豊橋商工会議所",
+    "legacy_date_text": "2023年10月25–27日"
+  },
+  {
+    "id": "legacy-talk-0077",
+    "title": "負のポアソン比を示すメタマテリアルの実験的検討",
+    "authors": [
+      "赤松大地",
+      "松島慶",
+      "山田崇恭",
+      "柳本潤",
+      "佐藤悠治"
+    ],
+    "year": 2023,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本機械学会 M&M2023 材料力学カンファレンス",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "赤松大地"
+    ],
+    "location": "筑波大学 筑波キャンパス",
+    "start_date": "2023-09-27",
+    "end_date": "2023-09-29",
+    "legacy_talk_number": 77,
+    "legacy_venue_text": "日本機械学会 M&M2023 材料力学カンファレンス, 筑波大学 筑波キャンパス",
+    "legacy_date_text": "2023年9月27–29日"
+  },
+  {
+    "id": "legacy-talk-0076",
+    "title": "Designing large-scale acoustic scattering systems using structural optimization and multiple scattering theory",
+    "authors": [
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2023,
+    "month": 8,
+    "type": "inproceedings",
+    "venue": "ICIAM2023",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "Tokyo",
+    "start_date": "2023-08-20",
+    "end_date": "2023-08-25",
+    "legacy_talk_number": 76,
+    "legacy_venue_text": "ICIAM2023, Tokyo",
+    "legacy_date_text": "2023年8月20–25日"
+  },
+  {
+    "id": "legacy-talk-0075",
+    "title": "Homogenization problem with nonlinear boundary conditions and its applications to optimal design problems",
+    "authors": [
+      "Kosuke Kita",
+      "Tomoyuki Oka",
+      "Kei Matsushima"
+    ],
+    "year": 2023,
+    "month": 5,
+    "type": "inproceedings",
+    "venue": "The 13th AIMS Conference on Dynamical Systems",
+    "tags": [
+      "EN",
+      "invited"
+    ],
+    "presenters": [
+      "Tomoyuki Oka"
+    ],
+    "location": "Differential Equations and Applications, Wilmington, NC USA",
+    "start_date": "2023-05-31",
+    "end_date": "2023-06-04",
+    "invited": true,
+    "legacy_talk_number": 75,
+    "legacy_venue_text": "The 13th AIMS Conference on Dynamical Systems, Differential Equations and Applications, Wilmington, NC USA",
+    "legacy_date_text": "2023年5月31日–6月4日"
+  },
+  {
+    "id": "legacy-talk-0074",
+    "title": "光輸送問題における随伴変数法について",
+    "authors": [
+      "松島慶",
+      "野口悠暉",
+      "山田崇恭"
+    ],
+    "year": 2023,
+    "month": 5,
+    "type": "conference",
+    "venue": "第28回計算工学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "つくば国際会議場, つくば",
+    "start_date": "2023-05-31",
+    "end_date": "2023-06-02",
+    "legacy_talk_number": 74,
+    "legacy_venue_text": "第28回計算工学講演会, つくば国際会議場, つくば",
+    "legacy_date_text": "2023年5月31-6月2日"
+  },
+  {
+    "id": "legacy-talk-0073",
+    "title": "輻射境界条件を伴う熱伝導問題を対象とするトポロジー最適化について",
+    "authors": [
+      "松島慶",
+      "岡大将",
+      "喜多航佑"
+    ],
+    "year": 2023,
+    "month": 3,
+    "type": "conference",
+    "venue": "日本応用数理学会第19回研究部会連合発表会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "岡山理科大学, 岡山",
+    "start_date": "2023-03-08",
+    "end_date": "2023-03-10",
+    "legacy_talk_number": 73,
+    "legacy_venue_text": "日本応用数理学会第19回研究部会連合発表会, 岡山理科大学, 岡山",
+    "legacy_date_text": "2023年3月8-10日"
+  },
+  {
+    "id": "legacy-talk-0072",
+    "title": "非線形境界条件を伴うトポロジー最適化問題",
+    "authors": [
+      "岡大将",
+      "喜多航佑",
+      "松島慶"
+    ],
+    "year": 2023,
+    "month": 3,
+    "type": "conference",
+    "venue": "日本応用数理学会第19回研究部会連合発表会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "岡大将"
+    ],
+    "location": "岡山理科大学, 岡山",
+    "start_date": "2023-03-08",
+    "end_date": "2023-03-10",
+    "legacy_talk_number": 72,
+    "legacy_venue_text": "日本応用数理学会第19回研究部会連合発表会, 岡山理科大学, 岡山",
+    "legacy_date_text": "2023年3月8-10日"
+  },
+  {
+    "id": "legacy-talk-0071",
+    "title": "Computation and optimization of multiple wave scattering using boundary integral formulation",
+    "authors": [
+      "Kei Matsushima"
+    ],
+    "year": 2023,
+    "month": 2,
+    "type": "inproceedings",
+    "venue": "Seminar at Isaac Newton Institute for Mathematical Sciences",
+    "tags": [
+      "EN",
+      "invited"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "University of Cambridge",
+    "start_date": "2023-02-02",
+    "end_date": "2023-02-02",
+    "invited": true,
+    "legacy_talk_number": 71,
+    "legacy_venue_text": "Seminar at Isaac Newton Institute for Mathematical Sciences, University of Cambridge",
+    "legacy_date_text": "2023年2月2日"
+  },
+  {
+    "id": "legacy-talk-0070",
+    "title": "Topology optimization algorithm using two-point topological derivative",
+    "authors": [
+      "Masaki Noda",
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2022,
+    "month": 12,
+    "type": "conference",
+    "venue": "計算数理工学シンポジウム2022",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Masaki Noda"
+    ],
+    "location": "愛媛大学, 松山",
+    "start_date": "2022-12-16",
+    "end_date": "2022-12-17",
+    "legacy_talk_number": 70,
+    "legacy_venue_text": "計算数理工学シンポジウム2022, 愛媛大学, 松山",
+    "legacy_date_text": "2022年12月16-17日"
+  },
+  {
+    "id": "legacy-talk-0069",
+    "title": "流体潤滑問題を対象としたレベルセット法に基づくトポロジー最適化",
+    "authors": [
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 12,
+    "type": "conference",
+    "venue": "計算数理工学シンポジウム2022",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "野口悠暉"
+    ],
+    "location": "愛媛大学, 松山",
+    "start_date": "2022-12-16",
+    "end_date": "2022-12-17",
+    "legacy_talk_number": 69,
+    "legacy_venue_text": "計算数理工学シンポジウム2022, 愛媛大学, 松山",
+    "legacy_date_text": "2022年12月16-17日"
+  },
+  {
+    "id": "legacy-talk-0068",
+    "title": "Dirichlet-to-Neumann有限要素法とSakurai–Sugiura法に基づく3次元音響導波路の複素固有値解析",
+    "authors": [
+      "松島慶",
+      "野口悠暉",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 12,
+    "type": "conference",
+    "venue": "計算数理工学シンポジウム2022",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "愛媛大学, 松山",
+    "start_date": "2022-12-16",
+    "end_date": "2022-12-17",
+    "legacy_talk_number": 68,
+    "legacy_venue_text": "計算数理工学シンポジウム2022, 愛媛大学, 松山",
+    "legacy_date_text": "2022年12月16-17日"
+  },
+  {
+    "id": "legacy-talk-0067",
+    "title": "負のポアソン比を実現する周期構造のトポロジー最適化と実証実験",
+    "authors": [
+      "赤松大地",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 11,
+    "type": "conference",
+    "venue": "第35回計算力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "赤松大地"
+    ],
+    "location": "オンライン",
+    "start_date": "2022-11-16",
+    "end_date": "2022-11-18",
+    "legacy_talk_number": 67,
+    "legacy_venue_text": "第35回計算力学講演会, オンライン",
+    "legacy_date_text": "2022年11月16-18日"
+  },
+  {
+    "id": "legacy-talk-0066",
+    "title": "時間域境界要素法を用いた外部散乱問題の複素固有値の考察",
+    "authors": [
+      "松島慶",
+      "野口悠暉",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 11,
+    "type": "conference",
+    "venue": "第35回計算力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "オンライン",
+    "start_date": "2022-11-16",
+    "end_date": "2022-11-18",
+    "legacy_talk_number": 66,
+    "legacy_venue_text": "第35回計算力学講演会, オンライン",
+    "legacy_date_text": "2022年11月16-18日"
+  },
+  {
+    "id": "legacy-talk-0065",
+    "title": "高周波弾性波を対象としたメタマテリアルの構造最適化手法に関する検討",
+    "authors": [
+      "村井直樹",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 11,
+    "type": "conference",
+    "venue": "第35回計算力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "村井直樹"
+    ],
+    "location": "オンライン",
+    "start_date": "2022-11-16",
+    "end_date": "2022-11-18",
+    "legacy_talk_number": 65,
+    "legacy_venue_text": "第35回計算力学講演会, オンライン",
+    "legacy_date_text": "2022年11月16-18日"
+  },
+  {
+    "id": "legacy-talk-0064",
+    "title": "連成型仮想的物理モデルに基づく型成形製造制約の数理モデルの開発と構造最適化への展開",
+    "authors": [
+      "福岡直也",
+      "松島慶",
+      "野口悠暉",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 11,
+    "type": "conference",
+    "venue": "第35回計算力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "福岡直也"
+    ],
+    "location": "オンライン",
+    "start_date": "2022-11-16",
+    "end_date": "2022-11-18",
+    "legacy_talk_number": 64,
+    "legacy_venue_text": "第35回計算力学講演会, オンライン",
+    "legacy_date_text": "2022年11月16-18日"
+  },
+  {
+    "id": "legacy-talk-0063",
+    "title": "拡張レベルセット法に基づく複数材料トポロジー最適化における材料非定義中間領域の除去に関する検討",
+    "authors": [
+      "野田雅貴",
+      "松島慶",
+      "野口悠暉",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 11,
+    "type": "conference",
+    "venue": "第35回計算力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "野田雅貴"
+    ],
+    "location": "オンライン",
+    "start_date": "2022-11-16",
+    "end_date": "2022-11-18",
+    "legacy_talk_number": 63,
+    "legacy_venue_text": "第35回計算力学講演会, オンライン",
+    "legacy_date_text": "2022年11月16-18日"
+  },
+  {
+    "id": "legacy-talk-0062",
+    "title": "最大厚み制約を考慮したトポロジー最適化問題の定式化",
+    "authors": [
+      "酒井虹太",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 11,
+    "type": "conference",
+    "venue": "第35回計算力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "酒井虹太"
+    ],
+    "location": "オンライン",
+    "start_date": "2022-11-16",
+    "end_date": "2022-11-18",
+    "legacy_talk_number": 62,
+    "legacy_venue_text": "第35回計算力学講演会, オンライン",
+    "legacy_date_text": "2022年11月16-18日"
+  },
+  {
+    "id": "legacy-talk-0061",
+    "title": "3次元迷路型音響メタマテリアルの最適設計",
+    "authors": [
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 11,
+    "type": "conference",
+    "venue": "第35回計算力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "野口悠暉"
+    ],
+    "location": "オンライン",
+    "start_date": "2022-11-16",
+    "end_date": "2022-11-18",
+    "legacy_talk_number": 61,
+    "legacy_venue_text": "第35回計算力学講演会, オンライン",
+    "legacy_date_text": "2022年11月16-18日"
+  },
+  {
+    "id": "legacy-talk-0060",
+    "title": "仮想的な力学モデルに基づく傾斜角制約を考慮した最適設計",
+    "authors": [
+      "田島幹大",
+      "松島慶",
+      "野口悠暉",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 11,
+    "type": "conference",
+    "venue": "第35回計算力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "田島幹大"
+    ],
+    "location": "オンライン",
+    "start_date": "2022-11-16",
+    "end_date": "2022-11-18",
+    "legacy_talk_number": 60,
+    "legacy_venue_text": "第35回計算力学講演会, オンライン",
+    "legacy_date_text": "2022年11月16-18日"
+  },
+  {
+    "id": "legacy-talk-0059",
+    "title": "トポロジー最適化のための線形偏微分方程式を用いた厚み制約の定式化",
+    "authors": [
+      "酒井虹太",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 11,
+    "type": "conference",
+    "venue": "第14回最適化シンポジウム",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "酒井虹太"
+    ],
+    "location": "名古屋大学, 名古屋市",
+    "start_date": "2022-11-12",
+    "end_date": "2022-11-13",
+    "legacy_talk_number": 59,
+    "legacy_venue_text": "第14回最適化シンポジウム, 名古屋大学, 名古屋市",
+    "legacy_date_text": "2022年11月12-13日"
+  },
+  {
+    "id": "legacy-talk-0058",
+    "title": "Dirichlet-to-Neumann有限要素法を用いた光学デバイスのトポロジー最適化",
+    "authors": [
+      "松島慶",
+      "野口悠暉",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 11,
+    "type": "conference",
+    "venue": "第14回最適化シンポジウム",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "名古屋大学, 名古屋市",
+    "start_date": "2022-11-12",
+    "end_date": "2022-11-13",
+    "legacy_talk_number": 58,
+    "legacy_venue_text": "第14回最適化シンポジウム, 名古屋大学, 名古屋市",
+    "legacy_date_text": "2022年11月12-13日"
+  },
+  {
+    "id": "legacy-talk-0057",
+    "title": "高周波弾性波の制御機能を持つメタマテリアルの最適設計に関する基礎検討",
+    "authors": [
+      "村井直樹",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 11,
+    "type": "conference",
+    "venue": "第14回最適化シンポジウム",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "村井直樹"
+    ],
+    "location": "名古屋大学, 名古屋市",
+    "start_date": "2022-11-12",
+    "end_date": "2022-11-13",
+    "legacy_talk_number": 57,
+    "legacy_venue_text": "第14回最適化シンポジウム, 名古屋大学, 名古屋市",
+    "legacy_date_text": "2022年11月12-13日"
+  },
+  {
+    "id": "legacy-talk-0056",
+    "title": "低せん断剛性を持つ線形弾性体により部材間滑りを表現した変位・圧力伝達機構モデルのトポロジー最適化における評価関数の検討",
+    "authors": [
+      "野田雅貴",
+      "松島慶",
+      "野口悠暉",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 11,
+    "type": "conference",
+    "venue": "第14回最適化シンポジウム",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "野田雅貴"
+    ],
+    "location": "名古屋大学, 名古屋市",
+    "start_date": "2022-11-12",
+    "end_date": "2022-11-13",
+    "legacy_talk_number": 56,
+    "legacy_venue_text": "第14回最適化シンポジウム, 名古屋大学, 名古屋市",
+    "legacy_date_text": "2022年11月12-13日"
+  },
+  {
+    "id": "legacy-talk-0055",
+    "title": "低周波騒音の低減を目的とした音響メタマテリアルの最適設計",
+    "authors": [
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 11,
+    "type": "conference",
+    "venue": "第14回最適化シンポジウム",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "野口悠暉"
+    ],
+    "location": "名古屋大学, 名古屋市",
+    "start_date": "2022-11-12",
+    "end_date": "2022-11-13",
+    "legacy_talk_number": 55,
+    "legacy_venue_text": "第14回最適化シンポジウム, 名古屋大学, 名古屋市",
+    "legacy_date_text": "2022年11月12-13日"
+  },
+  {
+    "id": "legacy-talk-0054",
+    "title": "Tailoring acoustic and electromagnetic waves based on structural optimization",
+    "authors": [
+      "Kei Matsushima"
+    ],
+    "year": 2022,
+    "month": 11,
+    "type": "inproceedings",
+    "venue": "KOZWavinars",
+    "tags": [
+      "EN",
+      "invited"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "online",
+    "start_date": "2022-11-01",
+    "end_date": "2022-11-01",
+    "invited": true,
+    "legacy_talk_number": 54,
+    "legacy_venue_text": "KOZWavinars, online",
+    "legacy_date_text": "2022年11月1日"
+  },
+  {
+    "id": "legacy-talk-0053",
+    "title": "FreeFEMを用いた外部Helmholtz問題のmode-matching有限要素解析について",
+    "authors": [
+      "松島慶"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本応用数理学会 2022年度年会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "北海道大学 (セミ・ハイブリッド), 札幌市",
+    "start_date": "2022-09-08",
+    "end_date": "2022-09-10",
+    "legacy_talk_number": 53,
+    "legacy_venue_text": "日本応用数理学会 2022年度年会, 北海道大学 (セミ・ハイブリッド), 札幌市",
+    "legacy_date_text": "2022年9月8-10日"
+  },
+  {
+    "id": "legacy-talk-0052",
+    "title": "3次元電磁波問題における形状依存を示す目的関数に対する設計感度解析について",
+    "authors": [
+      "佐藤恒",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "第32回設計工学‧システム部門講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "佐藤恒"
+    ],
+    "location": "岡山県立大学, 総社市",
+    "start_date": "2022-09-20",
+    "end_date": "2022-09-22",
+    "legacy_talk_number": 52,
+    "legacy_venue_text": "第32回設計工学‧システム部門講演会, 岡山県立大学, 総社市",
+    "legacy_date_text": "2022年9月20-22日"
+  },
+  {
+    "id": "legacy-talk-0051",
+    "title": "直交異方性線形弾性体を含む複数材料を扱う拡張レベルセット法に基づくトポロジー最適化",
+    "authors": [
+      "野田雅貴",
+      "松島慶",
+      "野口悠暉",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "第32回設計工学‧システム部門講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "野田雅貴"
+    ],
+    "location": "岡山県立大学, 総社市",
+    "start_date": "2022-09-20",
+    "end_date": "2022-09-22",
+    "legacy_talk_number": 51,
+    "legacy_venue_text": "第32回設計工学‧システム部門講演会, 岡山県立大学, 総社市",
+    "legacy_date_text": "2022年9月20-22日"
+  },
+  {
+    "id": "legacy-talk-0050",
+    "title": "負のポアソン比を実現するメカニカルメタマテリアルのトポロジー最適化と実証実験",
+    "authors": [
+      "赤松大地",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "第32回設計工学‧システム部門講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "赤松大地"
+    ],
+    "location": "岡山県立大学, 総社市",
+    "start_date": "2022-09-20",
+    "end_date": "2022-09-22",
+    "legacy_talk_number": 50,
+    "legacy_venue_text": "第32回設計工学‧システム部門講演会, 岡山県立大学, 総社市",
+    "legacy_date_text": "2022年9月20-22日"
+  },
+  {
+    "id": "legacy-talk-0049",
+    "title": "二次元熱クローク設計問題を対象とした均質化法を用いたトポロジー最適化",
+    "authors": [
+      "中川誠",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "第32回設計工学‧システム部門講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "中川誠"
+    ],
+    "location": "岡山県立大学, 総社市",
+    "start_date": "2022-09-20",
+    "end_date": "2022-09-22",
+    "legacy_talk_number": 49,
+    "legacy_venue_text": "第32回設計工学‧システム部門講演会, 岡山県立大学, 総社市",
+    "legacy_date_text": "2022年9月20-22日"
+  },
+  {
+    "id": "legacy-talk-0048",
+    "title": "一般化連続体力学に基づくメカニズム創成のための数理モデルの開発",
+    "authors": [
+      "小夜結利花",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "第32回設計工学‧システム部門講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "小夜結利花"
+    ],
+    "location": "岡山県立大学, 総社市",
+    "start_date": "2022-09-20",
+    "end_date": "2022-09-22",
+    "legacy_talk_number": 48,
+    "legacy_venue_text": "第32回設計工学‧システム部門講演会, 岡山県立大学, 総社市",
+    "legacy_date_text": "2022年9月20-22日"
+  },
+  {
+    "id": "legacy-talk-0046",
+    "title": "波動方程式に対する高次均質化における漸近的分散特性に関する基礎検討",
+    "authors": [
+      "張本宇辰",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "第32回設計工学‧システム部門講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "張本宇辰"
+    ],
+    "location": "岡山県立大学, 総社市",
+    "start_date": "2022-09-20",
+    "end_date": "2022-09-22",
+    "legacy_talk_number": 46,
+    "legacy_venue_text": "第32回設計工学‧システム部門講演会, 岡山県立大学, 総社市",
+    "legacy_date_text": "2022年9月20-22日"
+  },
+  {
+    "id": "legacy-talk-0045",
+    "title": "Multi-material topology optimization with dimension constraint for additive manufacturing",
+    "authors": [
+      "馮雨昆",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "第32回設計工学‧システム部門講演会",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "馮雨昆"
+    ],
+    "location": "岡山県立大学, 総社市",
+    "start_date": "2022-09-20",
+    "end_date": "2022-09-22",
+    "legacy_talk_number": 45,
+    "legacy_venue_text": "第32回設計工学‧システム部門講演会, 岡山県立大学, 総社市",
+    "legacy_date_text": "2022年9月20-22日"
+  },
+  {
+    "id": "legacy-talk-0044",
+    "title": "仮想的な物理場を用いたオーバーハング制約を考慮したトポロジー最適化",
+    "authors": [
+      "田島幹大",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "第32回設計工学‧システム部門講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "田島幹大"
+    ],
+    "location": "岡山県立大学, 総社市",
+    "start_date": "2022-09-20",
+    "end_date": "2022-09-22",
+    "legacy_talk_number": 44,
+    "legacy_venue_text": "第32回設計工学‧システム部門講演会, 岡山県立大学, 総社市",
+    "legacy_date_text": "2022年9月20-22日"
+  },
+  {
+    "id": "legacy-talk-0043",
+    "title": "仮想的な物理モデルに基づく最大厚み制約のトポロジー最適化",
+    "authors": [
+      "酒井虹太",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "第32回設計工学‧システム部門講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "酒井虹太"
+    ],
+    "location": "岡山県立大学, 総社市",
+    "start_date": "2022-09-20",
+    "end_date": "2022-09-22",
+    "legacy_talk_number": 43,
+    "legacy_venue_text": "第32回設計工学‧システム部門講演会, 岡山県立大学, 総社市",
+    "legacy_date_text": "2022年9月20-22日"
+  },
+  {
+    "id": "legacy-talk-0042",
+    "title": "複数周波数において機能する電磁メタマテリアルのマルチスケールトポロジー最適化",
+    "authors": [
+      "村井直樹",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "第32回設計工学‧システム部門講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "村井直樹"
+    ],
+    "location": "岡山県立大学, 総社市",
+    "start_date": "2022-09-20",
+    "end_date": "2022-09-22",
+    "legacy_talk_number": 42,
+    "legacy_venue_text": "第32回設計工学‧システム部門講演会, 岡山県立大学, 総社市",
+    "legacy_date_text": "2022年9月20-22日"
+  },
+  {
+    "id": "legacy-talk-0041",
+    "title": "Topology optimization of channels for rarefied gas flows using direct simulation Monte-Carlo method",
+    "authors": [
+      "官凱文",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "第32回設計工学‧システム部門講演会",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "官凱文"
+    ],
+    "location": "岡山県立大学, 総社市",
+    "start_date": "2022-09-20",
+    "end_date": "2022-09-22",
+    "legacy_talk_number": 41,
+    "legacy_venue_text": "第32回設計工学‧システム部門講演会, 岡山県立大学, 総社市",
+    "legacy_date_text": "2022年9月20-22日"
+  },
+  {
+    "id": "legacy-talk-0040",
+    "title": "サブ波長バンドギャップを実現する迷路状音響メタマテリアルのトポロジー最適化",
+    "authors": [
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "第32回設計工学‧システム部門講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "野口悠暉"
+    ],
+    "location": "岡山県立大学, 総社市",
+    "start_date": "2022-09-20",
+    "end_date": "2022-09-22",
+    "legacy_talk_number": 40,
+    "legacy_venue_text": "第32回設計工学‧システム部門講演会, 岡山県立大学, 総社市",
+    "legacy_date_text": "2022年9月20-22日"
+  },
+  {
+    "id": "legacy-talk-0039",
+    "title": "パリティ時間対称性を有する誘電体構造のトポロジー最適化",
+    "authors": [
+      "松島慶",
+      "野口悠暉",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "第32回設計工学‧システム部門講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "岡山県立大学, 総社市",
+    "start_date": "2022-09-20",
+    "end_date": "2022-09-22",
+    "legacy_talk_number": 39,
+    "legacy_venue_text": "第32回設計工学‧システム部門講演会, 岡山県立大学, 総社市",
+    "legacy_date_text": "2022年9月20-22日"
+  },
+  {
+    "id": "legacy-talk-0038",
+    "title": "Topology optimization for acoustic structures without floating components",
+    "authors": [
+      "Yuki Noguchi",
+      "Yusei Ohta",
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2022,
+    "month": 10,
+    "type": "inproceedings",
+    "venue": "ASME 2022 International Mechanical Engineering Congress and Exposition (IMECE2022)",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Yuki Noguchi"
+    ],
+    "location": "Columbus, Ohio, USA",
+    "start_date": "2022-10-30",
+    "end_date": "2022-11-03",
+    "legacy_talk_number": 38,
+    "legacy_venue_text": "ASME 2022 International Mechanical Engineering Congress and Exposition (IMECE2022), Columbus, Ohio, USA",
+    "legacy_date_text": "2022年10月30-11月3日"
+  },
+  {
+    "id": "legacy-talk-0037",
+    "title": "Domain segmentation optimization of multiple anisotropic materials with varying orientation angles using a topology optimization based on the extended level set method",
+    "authors": [
+      "Masaki Noda",
+      "Kei Matsushima",
+      "Yuki Noguchi",
+      "Takayuki Yamada"
+    ],
+    "year": 2022,
+    "month": 10,
+    "type": "inproceedings",
+    "venue": "ASME 2022 International Mechanical Engineering Congress and Exposition (IMECE2022)",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Masaki Noda"
+    ],
+    "location": "Columbus, Ohio, USA",
+    "start_date": "2022-10-30",
+    "end_date": "2022-11-03",
+    "legacy_talk_number": 37,
+    "legacy_venue_text": "ASME 2022 International Mechanical Engineering Congress and Exposition (IMECE2022), Columbus, Ohio, USA",
+    "legacy_date_text": "2022年10月30-11月3日"
+  },
+  {
+    "id": "legacy-talk-0036",
+    "title": "拡張レベルセット法に基づくトポロジー最適化による小型無人航空機構造の複数材料設計法",
+    "authors": [
+      "野田雅貴",
+      "松島慶",
+      "野口悠暉",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本機械学会 2022年度年次大会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "野田雅貴"
+    ],
+    "location": "富山大学 五福キャンパス",
+    "start_date": "2022-09-11",
+    "end_date": "2022-09-14",
+    "legacy_talk_number": 36,
+    "legacy_venue_text": "日本機械学会 2022年度年次大会, 富山大学 五福キャンパス",
+    "legacy_date_text": "2022年9月11-14日"
+  },
+  {
+    "id": "legacy-talk-0035",
+    "title": "マルチスケールトポロジー最適化を用いた熱クローキングを実現する伝熱メタマテリアルの最適設計",
+    "authors": [
+      "中川誠",
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本機械学会 2022年度年次大会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "中川誠"
+    ],
+    "location": "富山大学 五福キャンパス",
+    "start_date": "2022-09-11",
+    "end_date": "2022-09-14",
+    "legacy_talk_number": 35,
+    "legacy_venue_text": "日本機械学会 2022年度年次大会, 富山大学 五福キャンパス",
+    "legacy_date_text": "2022年9月11-14日"
+  },
+  {
+    "id": "legacy-talk-0034",
+    "title": "迷路型音響メタマテリアルのトポロジー最適化",
+    "authors": [
+      "野口悠暉",
+      "松島慶",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 9,
+    "type": "inproceedings",
+    "venue": "Dynamics and Design Conference 2022",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "野口悠暉"
+    ],
+    "location": "秋田県立大学 本荘キャンパス",
+    "start_date": "2022-09-05",
+    "end_date": "2022-09-08",
+    "legacy_talk_number": 34,
+    "legacy_venue_text": "Dynamics and Design Conference 2022, 秋田県立大学 本荘キャンパス",
+    "legacy_date_text": "2022年9月5-8日"
+  },
+  {
+    "id": "legacy-talk-0033",
+    "title": "A coupled-mode theory for exterior scattering problems based on a non-orthogonal modal expansion",
+    "authors": [
+      "Kei Matsushima",
+      "Yuki Noguchi",
+      "Takayuki Yamada"
+    ],
+    "year": 2022,
+    "month": 7,
+    "type": "inproceedings",
+    "venue": "WCCM-APCOM 2022",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "Yokohama",
+    "start_date": "2022-07-31",
+    "end_date": "2022-08-05",
+    "legacy_talk_number": 33,
+    "legacy_venue_text": "WCCM-APCOM 2022, Yokohama",
+    "legacy_date_text": "2022年7月31-8月5日"
+  },
+  {
+    "id": "legacy-talk-0032",
+    "title": "局所共振材料の最適設計による全方向音響クローキングの実現",
+    "authors": [
+      "松島慶",
+      "野口悠暉",
+      "山田崇恭"
+    ],
+    "year": 2022,
+    "month": 6,
+    "type": "conference",
+    "venue": "第27回計算工学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "にぎわい交流館AU, 秋田市",
+    "start_date": "2022-06-01",
+    "end_date": "2022-06-03",
+    "legacy_talk_number": 32,
+    "legacy_venue_text": "第27回計算工学講演会, にぎわい交流館AU, 秋田市",
+    "legacy_date_text": "2022年6月1-3日"
+  },
+  {
+    "id": "legacy-talk-0031",
+    "title": "Multiscale topology optimization for the design of electromagnetic metamaterials",
+    "authors": [
+      "Naoki Murai",
+      "Yuki Noguchi",
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2022,
+    "month": 5,
+    "type": "inproceedings",
+    "venue": "ACSMO2022",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Naoki Murai"
+    ],
+    "location": "Matsue",
+    "start_date": "2022-05-22",
+    "end_date": "2022-05-26",
+    "legacy_talk_number": 31,
+    "legacy_venue_text": "ACSMO2022, Matsue",
+    "legacy_date_text": "2022年5月22-26日"
+  },
+  {
+    "id": "legacy-talk-0030",
+    "title": "A study on adjusting geometric complexity in multiple material topology optimization method based on extended level set method",
+    "authors": [
+      "Masaki Noda",
+      "Yuki Noguchi",
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2022,
+    "month": 5,
+    "type": "inproceedings",
+    "venue": "ACSMO2022",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Masaki Noda"
+    ],
+    "location": "Matsue",
+    "start_date": "2022-05-22",
+    "end_date": "2022-05-26",
+    "legacy_talk_number": 30,
+    "legacy_venue_text": "ACSMO2022, Matsue",
+    "legacy_date_text": "2022年5月22-26日"
+  },
+  {
+    "id": "legacy-talk-0029",
+    "title": "A study of PDE-based formulation of the local thickness constraint for sensitivity analysis",
+    "authors": [
+      "Kota Sakai",
+      "Yuki Noguchi",
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2022,
+    "month": 5,
+    "type": "inproceedings",
+    "venue": "ACSMO2022",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kota Sakai"
+    ],
+    "location": "Matsue",
+    "start_date": "2022-05-22",
+    "end_date": "2022-05-26",
+    "legacy_talk_number": 29,
+    "legacy_venue_text": "ACSMO2022, Matsue",
+    "legacy_date_text": "2022年5月22-26日"
+  },
+  {
+    "id": "legacy-talk-0028",
+    "title": "Topology optimization for labyrinthine acoustic metamaterials with a negative refractive index",
+    "authors": [
+      "Yuki Noguchi",
+      "Kei Matsushima",
+      "Takayuki Yamada"
+    ],
+    "year": 2022,
+    "month": 5,
+    "type": "inproceedings",
+    "venue": "ACSMO2022",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Yuki Noguchi"
+    ],
+    "location": "Matsue",
+    "start_date": "2022-05-22",
+    "end_date": "2022-05-26",
+    "legacy_talk_number": 28,
+    "legacy_venue_text": "ACSMO2022, Matsue",
+    "legacy_date_text": "2022年5月22-26日"
+  },
+  {
+    "id": "legacy-talk-0027",
+    "title": "Design of an omnidirectional acoustic cloaking device based on a multiple scattering theory",
+    "authors": [
+      "Kei Matsushima",
+      "Yuki Noguchi",
+      "Takayuki Yamada"
+    ],
+    "year": 2022,
+    "month": 5,
+    "type": "inproceedings",
+    "venue": "ACSMO2022",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "Matsue",
+    "start_date": "2022-05-22",
+    "end_date": "2022-05-26",
+    "legacy_talk_number": 27,
+    "legacy_venue_text": "ACSMO2022, Matsue",
+    "legacy_date_text": "2022年5月22-26日"
+  },
+  {
+    "id": "legacy-talk-0026",
+    "title": "A topology optimisation in large-scale multi-particle systems based on the scattering matrix method",
+    "authors": [
+      "Kei Matsushima",
+      "Hiroshi Isakari",
+      "Toru Takahashi",
+      "Toshiro Matsumoto"
+    ],
+    "year": 2021,
+    "month": 6,
+    "type": "inproceedings",
+    "venue": "WCSMO-14",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "online",
+    "start_date": "2021-06-13",
+    "end_date": "2021-06-18",
+    "legacy_talk_number": 26,
+    "legacy_venue_text": "WCSMO-14, online",
+    "legacy_date_text": "2021年6月13-18日"
+  },
+  {
+    "id": "legacy-talk-0025",
+    "title": "散乱行列を用いた外部周期系の固有値配置に関するトポロジー最適化について",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2021,
+    "month": 5,
+    "type": "conference",
+    "venue": "第26回計算工学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "オンライン開催",
+    "start_date": "2021-05-26",
+    "end_date": "2021-05-28",
+    "legacy_talk_number": 25,
+    "legacy_venue_text": "第26回計算工学講演会, オンライン開催",
+    "legacy_date_text": "2021年5月26-28日"
+  },
+  {
+    "id": "legacy-talk-0024",
+    "title": "高周波散乱行列と境界要素法に基づく多重散乱解析",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2020,
+    "month": 12,
+    "type": "conference",
+    "venue": "計算数理工学シンポジウム2020",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "オンライン開催",
+    "start_date": "2020-12-19",
+    "end_date": "2020-12-19",
+    "legacy_talk_number": 24,
+    "legacy_venue_text": "計算数理工学シンポジウム2020, オンライン開催",
+    "legacy_date_text": "2020年12月19日"
+  },
+  {
+    "id": "legacy-talk-0023",
+    "title": "散乱行列と境界要素法に基づく周期散乱問題におけるトポロジー最適化",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2020,
+    "month": 9,
+    "type": "conference",
+    "venue": "応用数理学会 2020年度年会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "オンライン開催",
+    "start_date": "2020-09-08",
+    "end_date": "2020-09-10",
+    "legacy_talk_number": 23,
+    "legacy_venue_text": "応用数理学会 2020年度年会, オンライン開催",
+    "legacy_date_text": "2020年9月8-10日"
+  },
+  {
+    "id": "legacy-talk-0022",
+    "title": "A multiple scattering analysis based on the scattering matrix and a fast direct BEM",
+    "authors": [
+      "Kei Matsushima",
+      "Hiroshi Isakari",
+      "Toru Takahashi",
+      "Toshiro Matsumoto"
+    ],
+    "year": 2019,
+    "month": 12,
+    "type": "inproceedings",
+    "venue": "Asian Pacific Congress on Computational Mechanics",
+    "tags": [
+      "EN",
+      "keynote"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "Taipei",
+    "start_date": "2019-12-18",
+    "end_date": "2019-12-21",
+    "keynote": true,
+    "legacy_talk_number": 22,
+    "legacy_venue_text": "Asian Pacific Congress on Computational Mechanics, Taipei",
+    "legacy_date_text": "2019年12月18-21日"
+  },
+  {
+    "id": "legacy-talk-0021",
+    "title": "境界要素法と櫻井・杉浦法を用いた開放型共振器のトポロジー最適化",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2019,
+    "month": 12,
+    "type": "conference",
+    "venue": "計算数理工学シンポジウム2019",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "KKRホテル熱海, 熱海",
+    "start_date": "2019-12-01",
+    "end_date": "2019-12-02",
+    "legacy_talk_number": 21,
+    "legacy_venue_text": "計算数理工学シンポジウム2019, KKRホテル熱海, 熱海",
+    "legacy_date_text": "2019年12月1-2日"
+  },
+  {
+    "id": "legacy-talk-0020",
+    "title": "A numerical method for computing the scattering matrix by the boundary element method with applications to phononic band analysis",
+    "authors": [
+      "Kei Matsushima",
+      "Hiroshi Isakari",
+      "Toru Takahashi",
+      "Toshiro Matsumoto"
+    ],
+    "year": 2019,
+    "month": 9,
+    "type": "inproceedings",
+    "venue": "The 13th International Congress on Artificial Materials for Novel Wave Phenomena",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "Roma",
+    "start_date": "2019-09-16",
+    "end_date": "2019-09-21",
+    "legacy_talk_number": 20,
+    "legacy_venue_text": "The 13th International Congress on Artificial Materials for Novel Wave Phenomena, Roma",
+    "legacy_date_text": "2019年9月16-21日"
+  },
+  {
+    "id": "legacy-talk-0019",
+    "title": "散乱行列と境界要素法に基づく弾性体多層周期構造のトポロジー最適化",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2019,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本機械学会 2019年度年次大会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "秋田大学 手形キャンパス, 秋田",
+    "start_date": "2019-09-08",
+    "end_date": "2019-09-11",
+    "legacy_talk_number": 19,
+    "legacy_venue_text": "日本機械学会 2019年度年次大会, 秋田大学 手形キャンパス, 秋田",
+    "legacy_date_text": "2019年9月8-11日"
+  },
+  {
+    "id": "legacy-talk-0018",
+    "title": "S行列と高速直接境界要素法に基づくフォノニックバンド計算について",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2019,
+    "month": 6,
+    "type": "conference",
+    "venue": "第65回理論応用力学講演会・第22回土木学会応用力学シンポジウム",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "北海道大学札幌キャンパス, 札幌",
+    "start_date": "2019-06-28",
+    "end_date": "2019-06-30",
+    "legacy_talk_number": 18,
+    "legacy_venue_text": "第65回理論応用力学講演会・第22回土木学会応用力学シンポジウム, 北海道大学札幌キャンパス, 札幌",
+    "legacy_date_text": "2019年6月28-30日"
+  },
+  {
+    "id": "legacy-talk-0017",
+    "title": "S行列と境界要素法に基づく多層周期構造による弾性波散乱解析",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2019,
+    "month": 5,
+    "type": "conference",
+    "venue": "第24回計算工学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "ソニックシティー, さいたま",
+    "start_date": "2019-05-29",
+    "end_date": "2019-05-31",
+    "legacy_talk_number": 17,
+    "legacy_venue_text": "第24回計算工学講演会, ソニックシティー, さいたま",
+    "legacy_date_text": "2019年5月29日-5月31日"
+  },
+  {
+    "id": "legacy-talk-0016",
+    "title": "A topology optimisation of elastic metamaterials exhibiting negative refraction with the boundary element method",
+    "authors": [
+      "Kei Matsushima",
+      "Hiroshi Isakari",
+      "Toru Takahashi",
+      "Toshiro Matsumoto"
+    ],
+    "year": 2019,
+    "month": 5,
+    "type": "inproceedings",
+    "venue": "13th World Congress on Structural and Multidisciplinary Optimization",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "National Convention Center, Beijing",
+    "start_date": "2019-05-20",
+    "end_date": "2019-05-24",
+    "legacy_talk_number": 16,
+    "legacy_venue_text": "13th World Congress on Structural and Multidisciplinary Optimization, National Convention Center, Beijing",
+    "legacy_date_text": "2019年5月20-24日"
+  },
+  {
+    "id": "legacy-talk-0015",
+    "title": "負の屈折率を有する弾性体周期構造のトポロジー最適化",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2019,
+    "month": 3,
+    "type": "conference",
+    "venue": "機械学会東海支部第66期総会・講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "岐阜大学, 岐阜",
+    "start_date": "2019-03-07",
+    "end_date": "2019-03-08",
+    "legacy_talk_number": 15,
+    "legacy_venue_text": "機械学会東海支部第66期総会・講演会, 岐阜大学, 岐阜",
+    "legacy_date_text": "2019年3月7-8日"
+  },
+  {
+    "id": "legacy-talk-0014",
+    "title": "2次元弾性波周期散乱解析のための境界要素法とそのトポロジー最適化への応用",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2018,
+    "month": 12,
+    "type": "conference",
+    "venue": "計算数理工学シンポジウム2018",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "水上館, みなかみ",
+    "start_date": "2018-12-01",
+    "end_date": "2018-12-02",
+    "legacy_talk_number": 14,
+    "legacy_venue_text": "計算数理工学シンポジウム2018, 水上館, みなかみ",
+    "legacy_date_text": "2018年12月1-2日"
+  },
+  {
+    "id": "legacy-talk-0013",
+    "title": "境界要素法を用いた周期弾性波エネルギー吸収体のトポロジー最適化",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2018,
+    "month": 11,
+    "type": "conference",
+    "venue": "第31回計算力学講演会（CMD2018）",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "徳島大学 常三島キャンパス, 徳島",
+    "start_date": "2018-11-23",
+    "end_date": "2018-11-25",
+    "legacy_talk_number": 13,
+    "legacy_venue_text": "第31回計算力学講演会（CMD2018）, 徳島大学 常三島キャンパス, 徳島",
+    "legacy_date_text": "2018年11月23-25日"
+  },
+  {
+    "id": "legacy-talk-0012",
+    "title": "弾性波散乱問題における周期複合材料のトポロジー最適化について",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2018,
+    "month": 11,
+    "type": "conference",
+    "venue": "第28回設計工学・システム部門講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "読谷村文化センター, 読谷",
+    "start_date": "2018-11-04",
+    "end_date": "2018-11-06",
+    "legacy_talk_number": 12,
+    "legacy_venue_text": "第28回設計工学・システム部門講演会, 読谷村文化センター, 読谷",
+    "legacy_date_text": "2018年11月4-6日"
+  },
+  {
+    "id": "legacy-talk-0011",
+    "title": "周期弾性波散乱の遠方場特性のトポロジー最適化について",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2018,
+    "month": 10,
+    "type": "conference",
+    "venue": "第13回最適化シンポジウム 2018 (OPTIS 2018)",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "京都リサーチパーク, 京都",
+    "start_date": "2018-10-15",
+    "end_date": "2018-10-16",
+    "legacy_talk_number": 11,
+    "legacy_venue_text": "第13回最適化シンポジウム 2018 (OPTIS 2018), 京都リサーチパーク, 京都",
+    "legacy_date_text": "2018年10月15-16日"
+  },
+  {
+    "id": "legacy-talk-0010",
+    "title": "A topology optimisation of elastic wave absorber with the BEM and H-matrix method",
+    "authors": [
+      "Kei Matsushima",
+      "Hiroshi Isakari",
+      "Toru Takahashi",
+      "Toshiro Matsumoto"
+    ],
+    "year": 2018,
+    "month": 6,
+    "type": "inproceedings",
+    "venue": "IABEM 2018",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "University Pierre and Marie CURIE, Paris",
+    "start_date": "2018-06-26",
+    "end_date": "2018-06-28",
+    "legacy_talk_number": 10,
+    "legacy_venue_text": "IABEM 2018, University Pierre and Marie CURIE, Paris",
+    "legacy_date_text": "2018年6月26-28日"
+  },
+  {
+    "id": "legacy-talk-0009",
+    "title": "Hマトリクス法を用いた2次元動弾性周期境界値問題に対する高速境界要素法について",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2018,
+    "month": 6,
+    "type": "conference",
+    "venue": "第23回計算工学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "ウインク愛知, 名古屋",
+    "start_date": "2018-06-06",
+    "end_date": "2018-06-08",
+    "legacy_talk_number": 9,
+    "legacy_venue_text": "第23回計算工学講演会, ウインク愛知, 名古屋",
+    "legacy_date_text": "2018年6月6日-6月8日"
+  },
+  {
+    "id": "legacy-talk-0008",
+    "title": "2次元動弾性学における1周期境界値問題に対するGreen関数の数値計算",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2018,
+    "month": 3,
+    "type": "conference",
+    "venue": "機械学会東海支部第67期総会・講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "名古屋大学, 名古屋",
+    "start_date": "2018-03-13",
+    "end_date": "2018-03-15",
+    "legacy_talk_number": 8,
+    "legacy_venue_text": "機械学会東海支部第67期総会・講演会, 名古屋大学, 名古屋",
+    "legacy_date_text": "2018年3月13日-15日"
+  },
+  {
+    "id": "legacy-talk-0007",
+    "title": "粘弾性介在物を用いた弾性波エネルギー吸収体のトポロジー最適化",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2017,
+    "month": 12,
+    "type": "conference",
+    "venue": "計算数理工学シンポジウム2017",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "リゾートホテルオリンビアン小豆島, 香川県小豆郡",
+    "start_date": "2017-12-15",
+    "end_date": "2017-12-16",
+    "legacy_talk_number": 7,
+    "legacy_venue_text": "計算数理工学シンポジウム2017, リゾートホテルオリンビアン小豆島, 香川県小豆郡",
+    "legacy_date_text": "2017年12月15-16日"
+  },
+  {
+    "id": "legacy-talk-0006",
+    "title": "Hマトリクス法により高速化された境界要素法を用いた2次元動弾性問題におけるトポロジー最適化",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2017,
+    "month": 9,
+    "type": "conference",
+    "venue": "第30回計算力学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "近畿大学, 大阪",
+    "start_date": "2017-09-16",
+    "end_date": "2017-09-18",
+    "legacy_talk_number": 6,
+    "legacy_venue_text": "第30回計算力学講演会, 近畿大学, 大阪",
+    "legacy_date_text": "2017年9月16日-18日"
+  },
+  {
+    "id": "legacy-talk-0005",
+    "title": "An application of topology optimisation to defect identification in two-dimensional elastodynamics with the BEM and H-matrix method",
+    "authors": [
+      "Kei Matsushima",
+      "Hiroshi Isakari",
+      "Toru Takahashi",
+      "Toshiro Matsumoto"
+    ],
+    "year": 2017,
+    "month": 9,
+    "type": "inproceedings",
+    "venue": "BEM/MRM 40",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Kei Matsushima"
+    ],
+    "location": "Balmer Lawn Hotel, New Forest (UK)",
+    "start_date": "2017-09-12",
+    "end_date": "2017-09-14",
+    "legacy_talk_number": 5,
+    "legacy_venue_text": "BEM/MRM 40, Balmer Lawn Hotel, New Forest (UK)",
+    "legacy_date_text": "2017年9月12日-14日"
+  },
+  {
+    "id": "legacy-talk-0004",
+    "title": "An investigation of eigenfrequencies of boundary integral equations and the Burton-Miller formulation in two-dimensional elastodynamics",
+    "authors": [
+      "Kei Matsushima",
+      "Hiroshi Isakari",
+      "Toru Takahashi",
+      "Toshiro Matsumoto"
+    ],
+    "year": 2017,
+    "month": 9,
+    "type": "inproceedings",
+    "venue": "BEM/MRM 40",
+    "tags": [
+      "EN"
+    ],
+    "presenters": [
+      "Toshiro Matsumoto"
+    ],
+    "location": "Balmer Lawn Hotel, New Forest (UK)",
+    "start_date": "2017-09-12",
+    "end_date": "2017-09-14",
+    "legacy_talk_number": 4,
+    "legacy_venue_text": "BEM/MRM 40, Balmer Lawn Hotel, New Forest (UK)",
+    "legacy_date_text": "2017年9月12日-14日"
+  },
+  {
+    "id": "legacy-talk-0003",
+    "title": "境界要素法とHマトリクス法による2次元動弾性問題におけるトポロジー最適化",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2017,
+    "month": 9,
+    "type": "conference",
+    "venue": "日本機械学会 2017年度年次大会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "埼玉大学, さいたま",
+    "start_date": "2017-09-03",
+    "end_date": "2017-09-06",
+    "legacy_talk_number": 3,
+    "legacy_venue_text": "日本機械学会 2017年度年次大会, 埼玉大学, さいたま",
+    "legacy_date_text": "2017年9月3日-6日"
+  },
+  {
+    "id": "legacy-talk-0002",
+    "title": "Hマトリクス法で高速化された境界要素法による2次元動弾性問題のトポロジー最適化",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2017,
+    "month": 5,
+    "type": "conference",
+    "venue": "第22回計算工学講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "ソニックシティー, さいたま",
+    "start_date": "2017-05-31",
+    "end_date": "2017-06-02",
+    "legacy_talk_number": 2,
+    "legacy_venue_text": "第22回計算工学講演会, ソニックシティー, さいたま",
+    "legacy_date_text": "2017年5月31日-6月2日"
+  },
+  {
+    "id": "legacy-talk-0001",
+    "title": "2次元動弾性問題に対するHマトリクス法とその効率化",
+    "authors": [
+      "松島慶",
+      "飯盛浩司",
+      "高橋徹",
+      "松本敏郎"
+    ],
+    "year": 2017,
+    "month": 3,
+    "type": "conference",
+    "venue": "機械学会東海支部第66期総会・講演会",
+    "tags": [
+      "JP"
+    ],
+    "presenters": [
+      "松島慶"
+    ],
+    "location": "静岡大学浜松キャンパス, 浜松",
+    "start_date": "2017-03-14",
+    "end_date": "2017-03-15",
+    "legacy_talk_number": 1,
+    "legacy_venue_text": "機械学会東海支部第66期総会・講演会, 静岡大学浜松キャンパス, 浜松",
+    "legacy_date_text": "2017年3月14-15日"
+  }
+]
